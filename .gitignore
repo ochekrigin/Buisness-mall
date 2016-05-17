@@ -1,0 +1,10 @@
+# use glob syntax.
+syntax: glob
+
+.sass-cache
+node_modules
+bower_components
+app/css
+app/*.html
+dist
+markup

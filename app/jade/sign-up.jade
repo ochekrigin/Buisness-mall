@@ -1,0 +1,472 @@
+extends modules/layout
+block title
+  - title = "MetCentre - Become a VIP";
+block body
+  - signUp = true;
+  //wrapper starts
+  #wrapper
+    //header starts
+    include modules/header
+    //header ends
+    //main starts
+    #main
+      section.content-section.white-scheme
+        .container
+          // mailchimp starts
+          form#mc-embedded-subscribe-form.data-form.validate(action="//inlink.us7.list-manage.com/subscribe/post?u=fc6a65b374ddd4144b89b8e57&id=87a87cf0cb", method="post", name="mc-embedded-subscribe-form", target="_blank", novalidate="")
+            h1 Become a VIP
+            .indicates-required
+              span
+                i.ico-require
+                |  indicates required
+            fieldset
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-FNAME").required-field.uppercase.inline First Name
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-FNAME(type="text", value="", name="FNAME").middle-size.required
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-LNAME").required-field.uppercase.inline Last Name
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-LNAME(type="text", value="", name="LNAME").middle-size.required
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-EMAIL").required-field.uppercase.inline Email Address
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-EMAIL(type="email", value="", name="EMAIL").middle-size.required.email
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label.required-field.uppercase.inline Gender
+                .grid-col-md-6.grid-col-xl-5
+                  .grid-row(data-form-to-validate-parent)
+                    .grid-col-md-6.grid-col-lg-4
+                      .radio-holder
+                        input#mce-GENDER-0(type="radio", value="Male", name="GENDER", data-type-item)
+                        label(for="mce-GENDER-0") Male
+                    .grid-col-md-6.grid-col-lg-5
+                      .radio-holder.large-l-indent
+                        input#mce-GENDER-1(type="radio", value="Female", name="GENDER", data-type-item)
+                        label(for="mce-GENDER-1") Female
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label.uppercase.inline(for="mce-AGE") Age Group
+                .grid-col-md-6.grid-col-xl-5
+                  .select-holder
+                    select#mce-AGE.custom-select(name="AGE")
+                      option(value="")
+                      option(value="Under 13") Under 13
+                      option(value="13-17") 13-17
+                      option(value="18-24") 18-24
+                      option(value="25-34") 25-34
+                      option(value="35-44") 35-44
+                      option(value="45-54") 45-54
+                      option(value="55 and above") 55 and above
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-WADDRESS-addr1").uppercase.inline Work Building Address 
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-WADDRESS-addr1(type="text", value="", maxlength="70", name="WADDRESS[addr1]").middle-size
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-WADDRESS-addr2").uppercase.inline Address Line 2
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-WADDRESS-addr2(type="text", value="", maxlength="70", name="WADDRESS[addr2]").middle-size
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-WADDRESS-city").uppercase.inline City
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-WADDRESS-city(type="text", value="", maxlength="40", name="WADDRESS[city]").middle-size
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-WADDRESS-state").uppercase.inline State / Province / Region
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-WADDRESS-state(type="text", value="", maxlength="20", name="WADDRESS[state]").middle-size
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-WADDRESS-zip").uppercase.inline Postal / Zip Code
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-WADDRESS-zip(type="text", value="", maxlength="10", name="WADDRESS[zip]").middle-size
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label.uppercase.inline(for="mce-WADDRESS-country") Country
+                .grid-col-md-6.grid-col-xl-5
+                  .select-holder
+                    select#mce-WADDRESS-country.custom-select(name="WADDRESS[country]")
+                      option(value="164") USA
+                      option(value="286") Aaland Islands
+                      option(value="274") Afghanistan
+                      option(value="2") Albania
+                      option(value="3") Algeria
+                      option(value="178") American Samoa
+                      option(value="4") Andorra
+                      option(value="5") Angola
+                      option(value="176") Anguilla
+                      option(value="175") Antigua And Barbuda
+                      option(value="6") Argentina
+                      option(value="7") Armenia
+                      option(value="179") Aruba
+                      option(value="8", selected="") Australia
+                      option(value="9") Austria
+                      option(value="10") Azerbaijan
+                      option(value="11") Bahamas
+                      option(value="12") Bahrain
+                      option(value="13") Bangladesh
+                      option(value="14") Barbados
+                      option(value="15") Belarus
+                      option(value="16") Belgium
+                      option(value="17") Belize
+                      option(value="18") Benin
+                      option(value="19") Bermuda
+                      option(value="20") Bhutan
+                      option(value="21") Bolivia
+                      option(value="22") Bosnia and Herzegovina
+                      option(value="23") Botswana
+                      option(value="181") Bouvet Island
+                      option(value="24") Brazil
+                      option(value="180") Brunei Darussalam
+                      option(value="25") Bulgaria
+                      option(value="26") Burkina Faso
+                      option(value="27") Burundi
+                      option(value="28") Cambodia
+                      option(value="29") Cameroon
+                      option(value="30") Canada
+                      option(value="31") Cape Verde
+                      option(value="32") Cayman Islands
+                      option(value="33") Central African Republic
+                      option(value="34") Chad
+                      option(value="35") Chile
+                      option(value="36") China
+                      option(value="185") Christmas Island
+                      option(value="37") Colombia
+                      option(value="204") Comoros
+                      option(value="38") Congo
+                      option(value="183") Cook Islands
+                      option(value="268") Costa Rica
+                      option(value="275") Cote D"Ivoire
+                      option(value="40") Croatia
+                      option(value="276") Cuba
+                      option(value="298") Curacao
+                      option(value="41") Cyprus
+                      option(value="42") Czech Republic
+                      option(value="318") Democratic Republic of the Congo
+                      option(value="43") Denmark
+                      option(value="44") Djibouti
+                      option(value="186") Dominica
+                      option(value="289") Dominica
+                      option(value="187") Dominican Republic
+                      option(value="45") Ecuador
+                      option(value="46") Egypt
+                      option(value="47") El Salvador
+                      option(value="48") Equatorial Guinea
+                      option(value="49") Eritrea
+                      option(value="50") Estonia
+                      option(value="51") Ethiopia
+                      option(value="189") Falkland Islands
+                      option(value="191") Faroe Islands
+                      option(value="52") Fiji
+                      option(value="53") Finland
+                      option(value="54") France
+                      option(value="193") French Guiana
+                      option(value="277") French Polynesia
+                      option(value="56") Gabon
+                      option(value="57") Gambia
+                      option(value="58") Georgia
+                      option(value="59") Germany
+                      option(value="60") Ghana
+                      option(value="194") Gibraltar
+                      option(value="61") Greece
+                      option(value="195") Greenland
+                      option(value="192") Grenada
+                      option(value="196") Guadeloupe
+                      option(value="62") Guam
+                      option(value="198") Guatemala
+                      option(value="270") Guernsey
+                      option(value="63") Guinea
+                      option(value="65") Guyana
+                      option(value="200") Haiti
+                      option(value="66") Honduras
+                      option(value="67") Hong Kong
+                      option(value="68") Hungary
+                      option(value="69") Iceland
+                      option(value="70") India
+                      option(value="71") Indonesia
+                      option(value="278") Iran
+                      option(value="279") Iraq
+                      option(value="74") Ireland
+                      option(value="322") Isle of Man
+                      option(value="75") Israel
+                      option(value="76") Italy
+                      option(value="202") Jamaica
+                      option(value="78") Japan
+                      option(value="288") Jersey  (Channel Islands)
+                      option(value="79") Jordan
+                      option(value="80") Kazakhstan
+                      option(value="81") Kenya
+                      option(value="203") Kiribati
+                      option(value="82") Kuwait
+                      option(value="83") Kyrgyzstan
+                      option(value="84") Lao People"s Democratic Republic
+                      option(value="85") Latvia
+                      option(value="86") Lebanon
+                      option(value="87") Lesotho
+                      option(value="88") Liberia
+                      option(value="281") Libya
+                      option(value="90") Liechtenstein
+                      option(value="91") Lithuania
+                      option(value="92") Luxembourg
+                      option(value="208") Macau
+                      option(value="93") Macedonia
+                      option(value="94") Madagascar
+                      option(value="95") Malawi
+                      option(value="96") Malaysia
+                      option(value="97") Maldives
+                      option(value="98") Mali
+                      option(value="99") Malta
+                      option(value="207") Marshall Islands
+                      option(value="210") Martinique
+                      option(value="100") Mauritania
+                      option(value="212") Mauritius
+                      option(value="241") Mayotte
+                      option(value="101") Mexico
+                      option(value="102") Moldova, Republic of
+                      option(value="103") Monaco
+                      option(value="104") Mongolia
+                      option(value="290") Montenegro
+                      option(value="294") Montserrat
+                      option(value="105") Morocco
+                      option(value="106") Mozambique
+                      option(value="242") Myanmar
+                      option(value="107") Namibia
+                      option(value="108") Nepal
+                      option(value="109") Netherlands
+                      option(value="110") Netherlands Antilles
+                      option(value="213") New Caledonia
+                      option(value="111") New Zealand
+                      option(value="112") Nicaragua
+                      option(value="113") Niger
+                      option(value="114") Nigeria
+                      option(value="217") Niue
+                      option(value="214") Norfolk Island
+                      option(value="272") North Korea
+                      option(value="116") Norway
+                      option(value="117") Oman
+                      option(value="118") Pakistan
+                      option(value="222") Palau
+                      option(value="282") Palestine
+                      option(value="119") Panama
+                      option(value="219") Papua New Guinea
+                      option(value="120") Paraguay
+                      option(value="121") Peru
+                      option(value="122") Philippines
+                      option(value="221") Pitcairn
+                      option(value="123") Poland
+                      option(value="124") Portugal
+                      option(value="253") Puerto Rico
+                      option(value="126") Qatar
+                      option(value="315") Republic of Kosovo
+                      option(value="127") Reunion
+                      option(value="128") Romania
+                      option(value="129") Russia
+                      option(value="130") Rwanda
+                      option(value="205") Saint Kitts and Nevis
+                      option(value="206") Saint Lucia
+                      option(value="237") Saint Vincent and the Grenadines
+                      option(value="132") Samoa (Independent)
+                      option(value="227") San Marino
+                      option(value="255") Sao Tome and Principe
+                      option(value="133") Saudi Arabia
+                      option(value="134") Senegal
+                      option(value="266") Serbia
+                      option(value="135") Seychelles
+                      option(value="136") Sierra Leone
+                      option(value="137") Singapore
+                      option(value="302") Sint Maarten
+                      option(value="138") Slovakia
+                      option(value="139") Slovenia
+                      option(value="223") Solomon Islands
+                      option(value="140") Somalia
+                      option(value="141") South Africa
+                      option(value="257") South Georgia and the South Sandwich Islands
+                      option(value="142") South Korea
+                      option(value="311") South Sudan
+                      option(value="143") Spain
+                      option(value="144") Sri Lanka
+                      option(value="293") Sudan
+                      option(value="146") Suriname
+                      option(value="225") Svalbard and Jan Mayen Islands
+                      option(value="147") Swaziland
+                      option(value="148") Sweden
+                      option(value="149") Switzerland
+                      option(value="285") Syria
+                      option(value="152") Taiwan
+                      option(value="260") Tajikistan
+                      option(value="153") Tanzania
+                      option(value="154") Thailand
+                      option(value="233") Timor-Leste
+                      option(value="155") Togo
+                      option(value="232") Tonga
+                      option(value="234") Trinidad and Tobago
+                      option(value="156") Tunisia
+                      option(value="157") Turkey
+                      option(value="158") Turkmenistan
+                      option(value="287") Turks &amp; Caicos Islands
+                      option(value="159") Uganda
+                      option(value="161") Ukraine
+                      option(value="162") United Arab Emirates
+                      option(value="262") United Kingdom
+                      option(value="163") Uruguay
+                      option(value="165") Uzbekistan
+                      option(value="239") Vanuatu
+                      option(value="166") Vatican City State (Holy See)
+                      option(value="167") Venezuela
+                      option(value="168") Vietnam
+                      option(value="169") Virgin Islands (British)
+                      option(value="238") Virgin Islands (U.S.)
+                      option(value="188") Western Sahara
+                      option(value="170") Yemen
+                      option(value="173") Zambia
+                      option(value="174") Zimbabwe
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label(for="mce-MPHONE").uppercase.inline Mobile Number 
+                .grid-col-md-6.grid-col-xl-5
+                  .input-holder
+                    input#mce-MPHONE(type="text", name="MPHONE", value="").middle-size
+              .grid-row
+                .grid-col-md-3.grid-col-xl-2
+                  label.uppercase.inline Your Interests
+                .grid-col-md-6.grid-col-xl-5
+                  ul.checkbox-list#items(data-form-to-validate-parent)
+                    li
+                      .checkbox-holder
+                        input(type="checkbox", value="1", name="group[7133][1]", id="mce-group[7133]-7133-0")
+                        label(for="mce-group[7133]-7133-0") Sales
+                    li
+                      .checkbox-holder
+                        input(type="checkbox", value="2", name="group[7133][2]", id="mce-group[7133]-7133-1")
+                        label(for="mce-group[7133]-7133-1") Centre Events
+                    li
+                      .checkbox-holder
+                        input(type="checkbox", value="4", name="group[7133][4]", id="mce-group[7133]-7133-2")
+                        label(for="mce-group[7133]-7133-2") Giftware
+                    li
+                      .checkbox-holder
+                        input(type="checkbox", value="8", name="group[7133][8]", id="mce-group[7133]-7133-3")
+                        label(for="mce-group[7133]-7133-3") Women"s Fashion
+                    li
+                      .checkbox-holder
+                        input(type="checkbox", value="16", name="group[7133][16]", id="mce-group[7133]-7133-4")
+                        label(for="mce-group[7133]-7133-4") Men"s Fashion
+                    li
+                      .checkbox-holder
+                        input(type="checkbox", value="32", name="group[7133][32]", id="mce-group[7133]-7133-5")
+                        label(for="mce-group[7133]-7133-5") Jewellery / Accessories
+              #mce-responses.clear
+                #mce-error-response.response(style="display:none")
+                #mce-success-response.response(style="display:none")
+              //- real people should not fill this in and expect good things - do not remove this or risk form bot signups
+              div(style="position: absolute; left: -5000px;", aria-hidden="true")
+                input(type="text", name="b_fc6a65b374ddd4144b89b8e57_87a87cf0cb", tabindex="-1", value="")
+              .grid-row
+                .grid-col-lg-7.grid-prepend-lg-2
+                  button#mc-embedded-subscribe.btn.dark-orange.large.small(type="submit", value="Subscribe", name="subscribe")
+                    span Subscribe
+          // mailchimp ends
+      section.content-section.dark-scheme.top-indent
+        .container
+          h1.text-center.white
+            a(href="centre-info.html") About MetCentre
+          .contacts
+            .grid-row
+              .grid-col-lg-8
+                .map-box
+                  #map.map-holder(data-name="map" data-has-template)
+                  .search-box
+                    .grid-row
+                      .grid-col-md-3
+                        button.btn.large.white.small(type="button").home-location.full-width
+                          span Your Location
+                      .grid-col-md-1.text-center
+                        span.or or
+                      .grid-col-md-4
+                        input(type="text" placeholder="Enter your address" class="search-input")
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").search.full-width
+                          span Search
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").clear.full-width
+                          span Clear
+                  span.message-box Sorry, you are too far away from the desired object or we can't build the route. Please try once again.
+                  #direction-panel.direction-panel
+                    a.btn-close(href="#") Close
+              .grid-col-lg-4
+                .frame
+                  .grid-row
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="centre-info.html")
+                        h2.white.middle Trading Hours
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 8am-6pm
+                          dt Thursday
+                          dd 8am–8pm
+                        h2.white.middle Woolworths
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 6am–8pm
+                        h2.white.middle Max Brenner
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Thursday
+                          dd 7.30am–11pm
+                          dt Friday
+                          dd 7.30am–12am
+                          dt Saturday
+                          dd 9am–12am
+                          dt Sunday
+                          dd 9am–11pm
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="centre-info.html")
+                        h2.white.middle Contact Details
+                        dl.definition-list.with-line-break
+                          dt Address
+                          dd
+                            address Corner of George and Margaret Streets, Sydney.
+                          dt Phone
+                          dd 02 9259 0900
+    //main ends
+  //wrapper ends
+  //footer starts
+  include modules/footer
+  //footer ends
+block customScripts
+  script(type="text/javascript", src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js")
+  script(type="text/javascript").
+    (function($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[1]="FNAME";
+      ftypes[1]="text";
+      fnames[2]="LNAME";
+      ftypes[2]="text";
+      fnames[0]="EMAIL";
+      ftypes[0]="email";
+      fnames[3]="GENDER";
+      ftypes[3]="radio";
+      fnames[4]="AGE";
+      ftypes[4]="dropdown";
+      fnames[8]="WADDRESS";
+      ftypes[8]="address";
+      fnames[7]="MPHONE";
+      ftypes[7]="phone";
+    }(jQuery));
+
+    var $mcj = jQuery.noConflict(true);

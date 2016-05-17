@@ -1,0 +1,45 @@
+/* footer styles start */
+#footer {
+  background: #ebebeb;
+  font-family: $montserrat;
+  height: 200px;
+  margin: -240px 0 0;
+  overflow: hidden;
+  padding: 20px 10px;
+  position: relative;
+  z-index: 3;
+  @media only screen and (min-width: $lg-breakpoint) {
+    height: 240px;
+    margin: -305px 0 0;
+    padding: 32px 0 33px;
+    font-size: $base-font-size - 3px;
+    font-weight: 400;
+  }
+  .grid-row {min-height: 109px;}
+  .logo {
+    margin: 0 auto 15px;
+    &.gray {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      @media only screen and (min-width: $lg-breakpoint) {float: right;}
+    }
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .small {margin-right: -8px;}
+  .list--vertical {
+    @media only screen and (min-width: $lg-breakpoint) {
+      font-size: $base-font-size - 3px;
+      font-weight: 400;
+    }
+    > li {
+      padding-bottom: 8px;
+      @media only screen and (min-width: $lg-breakpoint) {padding-bottom: 2px;}
+    }
+  }
+}
+/* footer styles end */

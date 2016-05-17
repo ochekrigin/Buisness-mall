@@ -1,0 +1,259 @@
+/* text atoms styles start */
+/* heading atom styles start */
+h1,
+h2,
+h3,
+h4 {
+  &.blue {color: #006a85;}
+  &.green {color: #3baba6;}
+}
+.uppercase {text-transform: uppercase;}
+h1 {
+  font: 30px/35px $gudea;
+  margin: 0 0 10px;
+  @media only screen and (min-width: $md-breakpoint) {
+    font: 40px/45px $gudea;
+    margin: 0 0 20px;
+  }
+  a {
+    color: $gray;
+    &:hover {text-decoration: none;}
+  }
+  &.white {
+    a {color: $white;}
+  }
+  &.big {
+    font: 25px/20px $museo;
+    @media only screen and (min-width: $md-breakpoint) {font: 30px/35px $museo;}
+    @media only screen and (min-width: $lg-breakpoint) {font: 50px/55px $museo;}
+    span {
+      display: inline-block;
+      font-size: 35px;
+      line-height: 40px;
+      padding: 0 0 0 10px;
+      @media only screen and (min-width: $lg-breakpoint) {
+        font-size: 40px;
+        line-height: 45px;
+        padding: 0 0 0 17px;
+      }
+      @media only screen and (min-width: $lg-breakpoint) {
+        font-size: 60px;
+        line-height: 65px;
+        padding: 0 0 0 17px;
+      }
+    }
+    &.without-indent {padding: 0;}
+  }
+  &.title {
+    font: 30px/35px $gudea;
+    .landing & {
+      font: 32px/37px $gudea;
+      margin: 0 0 15px;
+    }
+  }
+}
+h2 {
+  font: 400 #{$big-font-size - 6px}/#{$base-line-height - 6px} $gudea;
+  margin: 0 0 10px;
+  a {
+    color: $gray;
+    &:hover {text-decoration: none;}
+  }
+  @media only screen and (min-width: $md-breakpoint) {
+    font: 400 #{$big-font-size - 2px}/#{$base-line-height - 2px} $gudea;
+    margin: 0 0 20px;
+  }
+  &.small {
+    font: 400 #{$big-font-size - 6px}/#{$base-line-height - 4px} $gudea;
+    margin: 0 0 10px;
+    @media only screen and (min-width: $md-breakpoint) {
+      font: 400 #{$big-font-size - 2px}/#{$base-line-height} $gudea;
+      margin: 0 0 16px;
+      .store-holder & {font: 400 #{$big-font-size - 4px}/#{$base-line-height} $gudea;}
+    }
+  }
+  &.middle {
+    font: 400 #{$big-font-size - 2px}/#{$base-line-height - 2px} $gudea;
+    margin: 0 0 9px;
+    @media only screen and (min-width: $lg-breakpoint) {font: 400 #{$big-font-size - 2px}/#{$base-line-height} $gudea;}
+  }
+  &.large {
+    font: 400 #{$big-font-size - 2px}/#{$base-line-height - 2px} $gudea;
+    margin: 0 0 9px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      margin: 0 0 32px;
+      &.b-indent {margin-bottom: 71px;}
+    }
+  }
+  &.title {
+    font: 30px/35px $gudea;
+    .landing & {
+      font: 32px/37px $gudea;
+      margin: 0 0 15px;
+    }
+  }
+  &.big {
+    margin: 0 0 9px;
+    font: 400 20px/25px $gudea;
+    @media only screen and (min-width: $lg-breakpoint) {font: 400 33px/40px $gudea;}
+    @media only screen and (min-width: $xl-breakpoint) {
+      font: 400 40px/48px $gudea;
+      margin: 0 0 32px;
+    }
+    span {
+      display: inline-block;
+      vertical-align: top;
+      padding: 0 5px;
+      &.row {
+        display: block;
+        &:first-child {
+          @media only screen and (min-width: $lg-breakpoint) {padding-left: 36px;}
+        }
+        &:last-child {
+          @media only screen and (min-width: $lg-breakpoint) {padding: 0 12px 0 0;}
+        }
+      }
+    }
+  }
+  &.biggest {
+    font: 30px/35px $gudea;
+    margin: 0 0 10px;
+    @media only screen and (min-width: $md-breakpoint) {
+      font: 400 20px/25px $gudea;
+      margin: 0 0 20px;
+    }
+  }
+}
+h3 {
+  font: 400 #{$big-font-size - 2px}/#{$base-line-height - 2px} $gudea;
+  margin: 0 0 9px;
+  @media only screen and (min-width: $lg-breakpoint) {font: 400 #{$big-font-size}/#{$base-line-height} $gudea;}
+  a {
+    color: $gray;
+    &:hover {text-decoration: none;}
+  }
+  &.small {
+    font: 700 #{$base-font-size - 2px}/#{$base-line-height - 2px} $montserrat;
+    margin: 0 0 6px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      font: 700 #{$base-font-size - 3px}/#{$base-line-height} $montserrat;
+      margin: 0 0 10px;
+    }
+  }
+  &.light {font-weight: 400;}
+  &.middle {
+    font: 400 #{$big-font-size - 6px}/#{$base-line-height - 4px} $gudea;
+    margin: 0 0 10px;
+    @media only screen and (min-width: $md-breakpoint) {
+      font: 400 #{$big-font-size - 2px}/#{$base-line-height} $gudea;
+      margin: 0 0 16px;
+      .store-holder & {font: 400 #{$base-font-size}/#{$base-line-height - 2px} $gudea;}
+    }
+  }
+}
+h4 {
+  font: 700 #{$base-font-size}/#{$base-line-height - 2px} $gudea;
+  margin: 0 0 6px;
+  @media only screen and (min-width: $lg-breakpoint) {
+    font: 700 #{$base-font-size + 2px}/#{$base-line-height} $gudea;
+    margin: 0 0 10px;
+  }
+}
+h5 {@include headingSetup(#{$base-font-size}/#{$base-line-height} $gudea);}
+h6 {@include headingSetup(#{$small-font-size}/#{$small-line-height} $gudea);}
+/* heading atom styles end */
+/* paragraph atom styles start */
+p {margin: 0 0 12px;}
+/* paragraph atom styles end */
+/* label atom styles start */
+label {cursor: pointer;}
+/* label atom styles end */
+/* list atom styles start */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.horizontal-list {
+  & > li {float: left;}
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+/* list atom styles end */
+b,
+strong {font-family: $gudea;}
+address {font-style: normal;}
+/* text atoms styles end */
+.link {
+  color: $gray;
+  display: inline-block;
+  font: 400 #{$base-font-size}/#{$small-line-height} $gudea;
+  margin: 0 0 10px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  white-space: nowrap;
+  @media only screen and (min-width: $xl-breakpoint) {
+    margin: 0 0 0 15px;
+    font: 400 #{$base-font-size + 2px}/#{$small-line-height} $gudea;
+    .store-holder & {
+      font-size: $base-font-size;
+      font-weight: 400;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+    color: $gray !important;
+    .is-desktop & {color: $orange;}
+  }
+  &.phone {
+    &:after {
+      content: '';
+      background: $icons;
+      @include retina-sprite-background(phone-large, $retina);
+      @include sprite-dimensions($icons, phone-large);
+      background-position: sprite-position($icons, phone-large);
+      position: absolute;
+      top: 1px;
+      left: 0;
+    }
+  }
+  &.view-map {
+    &:after {
+      content: '';
+      background: $icons;
+      @include retina-sprite-background(marker, $retina);
+      @include sprite-dimensions($icons, marker);
+      background-position: sprite-position($icons, marker);
+      position: absolute;
+      top: 1px;
+      left: 0;
+    }
+  }
+}
+.ui-title {
+  border-bottom: 2px solid $black;
+  color: $black;
+  display: block;
+  font: #{$bigest-font-size}/#{$bigest-line-height} $museo;
+  padding: 15px 0;
+  &.small {
+    font: #{$bigest-font-size - 5px}/#{$bigest-line-height - 5px} $museo;
+    padding: 5px 0;
+    margin: 0 0 15px;
+  }
+}
+.ui-btn-holder {
+  margin: 0 0 10px;
+  padding: 0 0 5px;
+}
+.ui-block {
+  padding: 10px;
+  &.orange {background: $orange;}
+  &.black-light {background: $black-light;}
+}

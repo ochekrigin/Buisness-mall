@@ -1,0 +1,140 @@
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+  @include border-radius(5px);
+  @include box-sizing(border-box);
+  background: none;
+  border: 2px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);
+  font-family: $gudea;
+  font-size: $base-font-size;
+  font-weight: 600;
+  line-height: $big-font-size;
+  margin: 0 0 9px;
+  text-align: center;
+  width: 100%;
+  &::-webkit-input-placeholder {
+    color: $white;
+    text-align: center;
+  }
+  &::-moz-placeholder {color: $white;}
+  &:-ms-input-placeholder {color: $white;}
+  &.error,
+  &.mce_inline_error {border-color: red !important;}
+  &.small-width {width: 200px;}
+  &.middle-size {
+    border-color: #ebebeb;
+    border-width: 3px;
+    color: #000;
+    height: 47px;
+    padding: 12px;
+    text-align: left;
+    &::-webkit-input-placeholder {
+      color: #000;
+      text-align: left;
+    }
+    &::-moz-placeholder {color: #000;}
+    &:-ms-input-placeholder {color: #000;}
+  }
+  &.search-input {
+    background: $white;
+    border-color: #fac1b7;
+    border-width: 5px;
+    color: #f16045;
+    height: 45px;
+    line-height: 24px;
+    &::-webkit-input-placeholder {
+      color: #f16045;
+      text-align: center;
+      opacity: 1;
+    }
+    &::-moz-placeholder {
+      color: #f16045;
+      opacity: 1;
+    }
+    &:-ms-input-placeholder {
+      color: #f16045;
+      opacity: 1;
+    }
+    &.dark {background: #6b6e72;}
+  }
+  &.white-scheme {
+    background: $white;
+    border: 5px solid rgba(240, 78, 48, 0.35);
+    color: $orange;
+    height: 50px;
+    @media only screen and (min-width: $md-breakpoint) {
+      font: 700 #{$big-font-size - 2px}/25px $gudea;
+      height: 68px;
+      min-width: 294px;
+    }
+    &::-webkit-input-placeholder {
+      color: $orange;
+      opacity: 1;
+      text-align: center;
+    }
+    &::-moz-placeholder {
+      color: $orange;
+      opacity: 1;
+    }
+    &:-ms-input-placeholder {color: $orange;}
+  }
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  height: 39px;
+  outline: none;
+  padding: 8px 5px;
+}
+textarea {
+  border-color: #ebebeb;
+  border-width: 3px;
+  color: #000;
+  height: 128px;
+  line-height: 25px;
+  padding: 2px 17px;
+  text-align: left;
+  @media only screen and (min-width: $xm-breakpoint) {
+    height: 140px;
+    padding: 4px 5px;
+  }
+  @media only screen and (min-width: $lg-breakpoint) {
+    height: 364px;
+    padding: 12px 17px;
+  }
+  @media only screen and (min-width: $xl-breakpoint) {
+    height: 186px;
+    margin-bottom: 23px;
+    padding: 13px 11px;
+  }
+}
+label {
+  font: 400 #{$base-font-size}/#{$small-line-height} $gudea;
+  color: $gray;
+  &.required-field {
+    padding: 0 12px 0 0;
+    position: relative;
+    &:after {
+      background: $icons;
+      @include retina-sprite-background(require, $retina);
+      @include sprite-dimensions($icons, require);
+      background-position: sprite-position($icons, require);
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 2px;
+    }
+  }
+  &.inline {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    @media only screen and (min-width: $md-breakpoint) {margin: 14px 0 0;}
+  }
+}

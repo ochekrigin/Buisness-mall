@@ -1,0 +1,123 @@
+// grid variables start
+$width: 960px;
+$gutter: 20px;
+$columns: 12;
+$column-width: $width / $columns;
+$flexible-column-width: 100% / $columns;
+// grid variables end
+
+// breakpoint names start
+$xs-breakpoint-name: 'xs';
+$sm-breakpoint-name: 'sm';
+$xm-breakpoint-name: 'xm';
+$md-breakpoint-name: 'md';
+$lg-breakpoint-name: 'lg';
+$xl-breakpoint-name: 'xl';
+$lxl-breakpoint-name: 'lxl';
+// breakpoint names end
+
+.grid-row {
+  height: 1%;
+  margin-bottom: 20px;
+  margin-left: -($gutter / 2);
+  margin-right: -($gutter / 2);
+  &.small-indent {margin: 0 9px 14px;}
+  &:after {@extend %clearfix;}
+  &.no-b-indent {margin-bottom: 0;}
+  &.xm-gutter {
+    @media only screen and (min-width: $xm-breakpoint) {
+      margin-left: -8px;
+      margin-right: -17px;
+      .xm-left-gutter {margin-left: -10px}
+    }
+    @media only screen and (min-width: $lg-breakpoint) {
+      margin-left: -($gutter / 2);
+      margin-right: -($gutter / 2);
+      .xm-left-gutter {margin-left: 0;}
+    }
+  }
+}
+.hidden {display: none !important;}
+[class^="grid-col-"] {@include box-sizing(border-box);}
+@mixin generate-grid($breakpoint-name, $breakpoint) {
+  @if $breakpoint == 320px {
+
+    // generate classes for elements displaying
+    .#{$breakpoint-name}-hidden {
+      display: none !important;
+    }
+    .#{$breakpoint-name}-visible {
+      display: block !important;
+    }
+
+    // generate columns classes
+    @for $i from 1 to $columns + 1 {
+      .grid-col-#{$breakpoint-name}-#{$i} {
+        float: left;
+        padding: 0 $gutter / 2;
+        width: $i * $flexible-column-width;
+      }
+    }
+
+    // generate push and pull classes
+    @for $i from 1 to $columns + 1 {
+      .grid-prepend-#{$breakpoint-name}-#{$i} {
+        padding-left: $i * $flexible-column-width;
+      }
+    }
+    @for $i from 1 to $columns + 1 {
+      .grid-append-#{$breakpoint-name}-#{$i}{
+        padding-right: $i * $flexible-column-width;
+      }
+    }
+
+  }
+  @else {
+    @media only screen and (min-width: $breakpoint) {
+      
+      //text alignment
+      .#{$breakpoint-name}-text-left {text-align: left !important;}
+      .#{$breakpoint-name}-text-center {text-align: center !important;}
+      .#{$breakpoint-name}-text-right {text-align: right !important;}
+
+      // generate classes for elements displaying
+      .#{$breakpoint-name}-hidden {
+        display: none !important;
+      }
+      .#{$breakpoint-name}-visible {
+        display: block !important;
+      }
+
+      // generate columns classes
+      @for $i from 1 to $columns + 1 {
+        .grid-col-#{$breakpoint-name}-#{$i} {
+          float: left;
+          padding: 0 $gutter / 2;
+          width: $i * $flexible-column-width;
+        }
+      }
+
+      // generate push and pull classes
+      @for $i from 1 to $columns + 1 {
+        .grid-prepend-#{$breakpoint-name}-#{$i} {
+          padding-left: $i * $flexible-column-width;
+        }
+      }
+      @for $i from 1 to $columns + 1 {
+        .grid-append-#{$breakpoint-name}-#{$i}{
+          padding-right: $i * $flexible-column-width;
+        }
+      }
+
+    }
+  }
+}
+
+// generate grid
+@include generate-grid($xs-breakpoint-name, $xs-breakpoint);
+@include generate-grid($sm-breakpoint-name, $sm-breakpoint);
+@include generate-grid($xm-breakpoint-name, $xm-breakpoint);
+@include generate-grid($md-breakpoint-name, $md-breakpoint);
+@include generate-grid($lg-breakpoint-name, $lg-breakpoint);
+@include generate-grid($xl-breakpoint-name, $xl-breakpoint);
+@include generate-grid($lxl-breakpoint-name, $lxl-breakpoint);

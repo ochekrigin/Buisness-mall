@@ -1,0 +1,23 @@
+@mixin resetList($padding:0, $margin:0, $listStyle:none) {
+  list-style: $listStyle;
+  margin: $margin;
+  padding: $padding;
+}
+@mixin hoverEffect($font-size, $hoverColor:$green, $hasHoverEffect:true) {
+  font-size: $font-size;
+  @if $hasHoverEffect == true {
+    &:hover {
+      @if $font-size > 17px {
+        color: $hoverColor;
+        text-decoration: none;
+      } @else {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@mixin headingSetup($font-setup, $indents:0 0 $base-vertical-indent, $text-transform:none) {
+  font: $font-setup;
+  margin: $indents;
+  text-transform: $text-transform;
+}

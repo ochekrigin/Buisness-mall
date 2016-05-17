@@ -1,0 +1,66 @@
+{
+  "name": "metcentre",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.*",
+    "hammerjs": "~2.*",
+    "hammerjs": "~2.*",
+    "jquery-hammerjs": "~2.0.0",
+    "jquery-easing": "*",
+    "jquery-mousewheel": "~3.1.13",
+    "jquery.xml2json": "~1.3.0",
+    "vue": "~0.12.16",
+    "EasyAutocomplete": "~1.1.6"
+  },
+  "files": {
+    "retina.js": {
+      "js": {
+        "cwd": "dist/",
+        "paths": [
+          "retina.js"
+        ]
+      }
+    },
+    "jquery-easing": {
+      "js": {
+        "cwd": "",
+        "paths": [
+          "jquery.easing.min.js"
+        ]
+      }
+    },
+    "jquery-placeholder": {
+      "js": {
+        "cwd": "",
+        "paths": [
+          "jquery.placeholder.js"
+        ]
+      }
+    },
+    "fancybox": {
+      "js": {
+        "cwd": "source/",
+        "paths": [
+          "{,helpers/}*.js",
+          "!jquery.fancybox.pack.js"
+        ]
+      },
+      "css": {
+        "cwd": "source/",
+        "paths": [
+          "{,helpers/}*.css"
+        ],
+        "dest": "css/fancybox/"
+      },
+      "images": {
+        "cwd": "source/",
+        "paths": [
+          "{,helpers/}*.{gif,png}"
+        ],
+        "dest": "css/fancybox/"
+      },
+      "other": []
+    }
+  },
+  "devDependencies": {}
+}

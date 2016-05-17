@@ -1,0 +1,31 @@
+%clearfix {
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+.btn-holder {
+  &.row {
+    padding: 0 10px;
+    @media only screen and (min-width: $lg-breakpoint) {padding: 0;}
+    @media only screen and (min-width: $xl-breakpoint + 64px) {
+      margin: 0 -2px;
+      position: relative;
+    }
+  }
+}
+.loading{
+  min-height: 200px;
+  &:after {
+    content: '';
+    background: image-url('content/img-loader.gif') no-repeat;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -64px;
+  }
+  .is-hidden-while-loading {display: none;}
+}

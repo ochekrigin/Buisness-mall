@@ -1,0 +1,170 @@
+extends modules/layout
+block title
+  - title = "MetCentre - Directory";
+block body
+  - storeDirectory = true;
+  //wrapper starts
+  #wrapper
+    //header starts
+    include modules/header
+    //header ends
+    //main starts
+    #main
+      section.content-section.filter-section.white-scheme.loading#store(data-filter-box, data-name="store", data-has-template, data-store)
+        .container
+          header.heading.no-indent
+            .grid-row
+              .grid-col-lg-6
+                h1 Filter and Search
+              .grid-col-lg-6.lg-text-right
+                a(href="store-directory-map-view.html").layout-switcher.grid.hidden.lg-visible.align-right Switch to Map View
+                .search-form
+                  input(type="text" placeholder="Search by name" v-model="title").light-table-filter.order-table
+                  button(type="button" disabled).btn-search Submit
+          .grid-row.is-hidden-while-loading
+            .grid-col-lg-12
+              .buttons
+                .btn-holder(v-repeat="category in store.categories")
+                  button.btn.middle.full-width.text-left(type="button" data-filter data-filter-property="{{category.className}}")
+                    i(class="ico ")
+                    | {{category.name}}
+          dl.items-pager.border
+            dt Jump to:
+            dd
+              ul
+                li
+                  a(href="#A" data-anchor-filter) A
+                li
+                  a(href="#B" data-anchor-filter) B
+                li
+                  a(href="#C" data-anchor-filter) C
+                li
+                  a(href="#D" data-anchor-filter) D
+                li
+                  a(href="#E" data-anchor-filter) E
+                li
+                  a(href="#F" data-anchor-filter) F
+                li
+                  a(href="#G" data-anchor-filter) G
+                li
+                  a(href="#H" data-anchor-filter) H
+                li
+                  a(href="#I" data-anchor-filter) I
+                li
+                  a(href="#J" data-anchor-filter) J
+                li
+                  a(href="#K" data-anchor-filter) K
+                li
+                  a(href="#L" data-anchor-filter) L
+                li
+                  a(href="#M" data-anchor-filter) M
+                li
+                  a(href="#N" data-anchor-filter) N
+                li
+                  a(href="#O" data-anchor-filter) O
+                li
+                  a(href="#P" data-anchor-filter) P
+                li
+                  a(href="#Q" data-anchor-filter) Q
+                li
+                  a(href="#R" data-anchor-filter) R
+                li
+                  a(href="#S" data-anchor-filter) S
+                li
+                  a(href="#T" data-anchor-filter) T
+                li
+                  a(href="#U" data-anchor-filter) U
+                li
+                  a(href="#V" data-anchor-filter) V
+                li
+                  a(href="#W" data-anchor-filter) W
+                li
+                  a(href="#X" data-anchor-filter) X
+                li
+                  a(href="#Y" data-anchor-filter) Y
+                li
+                  a(href="#Z" data-anchor-filter) Z
+          div(data-row v-repeat="store.marks").is-hidden-while-loading
+            .grid-row.small-indent(id="{{letter}}")
+              .grid-col-xs-3.grid-col-md-6
+                h2.orange.v-top.uppercase.biggest {{letter}}
+            .grid-row(data-letter="{{letter}}")
+              .store-holder
+                .grid-row(v-repeat="stores" data-filter-item="{{category}}").no-b-indent
+                  .grid-col-md-3
+                    h3.middle.orange
+                      a(href="#") {{title}}
+                  .grid-col-md-2
+                    a(href="tel:{{phone}}" target="_blank").link {{phone}}
+                  .grid-col-md-3
+                      a(href="http://{{link}}" v-if="link" target="_blank").link {{link}}
+                  .grid-col-md-2
+                    a.btn.smallest(href="store-directory-map-view.html?{{title}}").hidden.lg-visible View on Map
+                  .grid-col-md-2
+                    a.btn.smallest(href="store-page.html?{{web}}" v-if="web") Store Page
+      section.content-section.dark-scheme.top-indent
+        .container
+          h1.text-center.white
+            a(href="centre-info.html") About MetCentre
+          .contacts
+            .grid-row
+              .grid-col-lg-8
+                .map-box
+                  #map.map-holder(data-name="map" data-has-template)
+                  .search-box
+                    .grid-row
+                      .grid-col-md-3
+                        button.btn.large.white.small(type="button").home-location.full-width
+                          span Your Location
+                      .grid-col-md-1.text-center
+                        span.or or
+                      .grid-col-md-4
+                        input(type="text" placeholder="Enter your address" class="search-input")
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").search.full-width
+                          span Search
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").clear.full-width
+                          span Clear
+                  span.message-box Sorry, you are too far away from the desired object or we can't build the route. Please try once again.
+                  #direction-panel.direction-panel
+                    a.btn-close(href="#") Close
+              .grid-col-lg-4
+                .frame
+                  .grid-row
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="#")
+                        h2.white.middle Trading Hours
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 8am-6pm
+                          dt Thursday
+                          dd 8am–8pm
+                        h2.white.middle Woolworths
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 6am–8pm
+                        h2.white.middle Max Brenner
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Thursday
+                          dd 7.30am–11pm
+                          dt Friday
+                          dd 7.30am–12am
+                          dt Saturday
+                          dd 9am–12am
+                          dt Sunday
+                          dd 9am–11pm
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="#")
+                        h2.white.middle Contact Details
+                        dl.definition-list.with-line-break
+                          dt Address
+                          dd
+                            address Corner of George and Margaret Streets, Sydney.
+                          dt Phone
+                          dd 02 9259 0900
+    //main ends
+  //wrapper ends
+  //footer starts
+  include modules/footer
+  //footer ends

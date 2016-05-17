@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channel id="34" identifier="web-location-news">
+  <subChannel id="61" identifier="web-location-news">
+    <feedItem index="0" feedItemsId="3802793" feedIdentifier="pp-web-announcement" feedItemTypeIdentifier="building-message-web">
+      <title>Test News Announcement</title>
+      <created>2015-10-09 16:09:08</created>
+      <starts>2015-10-09 07:00:00</starts>
+      <expires>2016-01-17 00:00:00</expires>
+      <data>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <type>News</type>
+        <category>Announcement</category>
+        <subCategory></subCategory>
+        <title>Test News Announcement</title>
+        <body><![CDATA[This is a test news announcement message.]]></body>
+        <displayDate>2015-10-09 17:49:03</displayDate>
+        <eventStart></eventStart>
+        <eventEnd></eventEnd>
+        <where></where>
+        <venue></venue>
+        <webLink></webLink>
+        <videoUrl></videoUrl>
+        <videoThumbnail></videoThumbnail>
+        <articleId>0</articleId>
+        <hasArticle></hasArticle>
+        <longformId>5476</longformId>
+        <hasLongform>1</hasLongform>
+        <portraitImageUrl></portraitImageUrl>
+        <portraitImageUrlTablet></portraitImageUrlTablet>
+        <portraitImageUrlMobile></portraitImageUrlMobile>
+        <landscapeImageUrl>https://assets.inlink.io/cms/news/landscape_images/000/005/476/original/crema-1431395164-1444367348.jpg</landscapeImageUrl>
+        <landscapeImageUrlTablet></landscapeImageUrlTablet>
+        <landscapeImageUrlMobile></landscapeImageUrlMobile>
+        <daysOfWeek>0,1,2,3,4,5,6</daysOfWeek>
+        <startTime>7</startTime>
+        <endTime>19</endTime>
+      </data>
+    </feedItem>
+  </subChannel>
+</channel>

@@ -1,0 +1,305 @@
+extends modules/layout
+block title
+  - title = "MetCentre - UI page";
+block body
+  //wrapper starts
+  #wrapper
+    //header starts
+    include modules/header
+    //header ends
+    //main starts
+    #main
+      .container
+        strong.ui-title Atoms
+        strong.ui-title.small Logos
+        a.logo(href="#") Metcentre
+        a.logo.gray(href="#") Metcentre
+        strong.ui-title.small Headings
+        h1.big Big heading h1 <span class="orange-light">text</span>
+        h1.title Heading h1
+        h1 Heading h1
+        h2 Heading h2
+        h2.small.orange Small heading h2
+        h3 Heading h3
+        h4 Heading h4
+        strong.ui-title.small Lists
+        ul.list.bold
+          li
+            a(href="#") Store Directory
+          li
+            a(href="#") News &amp; Events
+          li
+            a(href="#") Centre Info
+        ul.list.list--horizontal
+          li
+            a(href="#") Ground
+          li.active
+            a(href="#") Mezzanine
+          li
+            a(href="#") Plaza
+        ul.list.list--vertical
+          li
+            a(href="#") Contact us
+          li
+            a(href="#") Getting here
+          li
+            a(href="#") Trading hours
+        strong.ui-title.small Buttons
+        .ui-btn-holder
+          a.btn(href="#") Button default
+        .ui-btn-holder
+          a.btn.orange(href="#") Button with orange rollover
+        .ui-btn-holder
+          a.btn.dark-orange.large.small(href="#")
+            span Button orange
+        .ui-btn-holder
+          a.btn.large.white(href="#")
+            span
+              i.ico-star
+              | Become a VIP client
+        .ui-btn-holder
+          a(href="#").layout-switcher.grid Layout switcher
+        .ui-btn-holder
+          a.btn.middle(href="#")
+            i.ico.caferestaurants
+            | Button with ico
+        strong.ui-title.small Icons
+        .ui-block
+          i.ico.ico-star.no-indent
+          i.ico.cafe
+          i.ico.fashion
+          i.ico.food
+          i.ico.fresh-food
+          i.ico.gifts
+          i.ico.services
+          i.ico.health
+          i.ico.grid
+        strong.ui-title.small Text
+        p Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+        strong.ui-title.small Form elements
+        strong.ui-title.small Labels
+        .ui-block
+          label.uppercase Label text
+        .ui-block
+          label.required.uppercase Required  label
+        strong.ui-title.small Inputs
+        .ui-block.orange
+          input(type="text" placeholder="Search")
+        .ui-block.white-scheme
+          input(type="text").middle-size
+        .ui-block.white-scheme
+          textarea(cols="30", rows="10")
+        .ui-block.white-scheme
+          .select-holder
+            select.custom-select
+              option Item 1
+              option Item 2
+              option Item 3
+        strong.ui-title Molecules
+        strong.ui-title.small Form elements
+        .ui-block.white-scheme
+          .radio-holder
+            input(type="radio" name="name-1" id="id-radio-1")
+            label(for="id-radio-1") Radio 1
+          .radio-holder
+            input(type="radio" name="name-1" id="id-radio-2")
+            label(for="id-radio-2") Radio 2
+        .ui-block.white-scheme
+          .checkbox-holder
+            input(type="checkbox" id="id-checkbox")
+            label(for="id-checkbox") Checkbox 1
+        strong.ui-title.small Search form
+        form.search-form(action="#")
+          fieldset
+            input(type="text" placeholder="Search by name")
+            button(type="submit").btn-search Submit
+        strong.ui-title.small Letter pager
+        dl.items-pager
+          dt Jump to:
+          dd
+            ul
+              li A
+              li B
+              li C
+              li D
+              li E
+              li F
+              li.active G
+              li.active H
+              li I
+              li J
+              li K
+              li L
+              li M
+              li N
+              li O
+              li P
+              li.active Q
+              li R
+              li S
+              li T
+              li U
+              li V
+              li W
+              li.active X
+              li Y
+              li Z
+        strong.ui-title.small Posts with grid
+        .grid-row
+          .grid-col-lg-6
+            article.block.block--white.b-shadow.small-bottom-indent
+              figure.media
+                a(href="#")
+                  img(src="images/content/img-article-1.jpg" width="460" height="260" alt="img-description")
+                figcaption.caption
+                  a(href="#")
+                    h2.small.orange Mattis Malesuada Nibh Dapibus Elit
+                  p Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+              .btn-holder.text-center
+                a.btn.orange(href="#") Read More
+          .grid-col-lg-6
+            article.block.block--white.b-shadow.small-bottom-indent
+              figure.media
+                a(href="#")
+                  img(src="images/content/img-article-2.jpg" width="460" height="260" alt="img-description")
+                figcaption.caption
+                  a(href="#")
+                    h2.small.orange Condimentum Lorem Ligula Mattis
+                  p Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              .btn-holder.text-center
+                a.btn.orange(href="#") Read More
+        .grid-row
+          .grid-col-lg-4
+            article.block.block--white
+              a(href="#").search-item
+                figure.media.small-item
+                  img(src="images/content/img-item-1.jpg" width="300" height="260" alt="img-description")
+                  figcaption.caption
+                    h2.small.orange.text-center Abey's Shoe Repairs
+                    .grid-row
+                      .grid-col-xl-6.text-center
+                        span.link.phone 02 9247 9308
+                      .grid-col-xl-6.text-center
+                        span.link.view-map View on Map
+          .grid-col-lg-4
+             article.block.block--white
+              a(href="#").search-item
+                figure.media.small-item
+                  img(src="images/content/img-item-1.jpg" width="300" height="260" alt="img-description")
+                  figcaption.caption
+                    h2.small.orange.text-center Abey's Shoe Repairs
+                    .grid-row
+                      .grid-col-xl-6.text-center
+                        span.link.phone 02 9247 9308
+                      .grid-col-xl-6.text-center
+                        span.link.view-map View on Map
+          .grid-col-lg-4
+            article.block.block--white
+              a(href="#").search-item
+                figure.media.small-item
+                  img(src="images/content/img-item-1.jpg" width="300" height="260" alt="img-description")
+                  figcaption.caption
+                    h2.small.orange.text-center Abey's Shoe Repairs
+                    .grid-row
+                      .grid-col-xl-6.text-center
+                        span.link.phone 02 9247 9308
+                      .grid-col-xl-6.text-center
+                        span.link.view-map View on Map
+        strong.ui-title.small Map
+        #map.map-holder
+        strong.ui-title.small Definitions list
+        .ui-block.black-light
+          dl.definition-list.fixed-term-width
+            dt Monday-Saturday
+            dd 8AM-6PM
+            dt Sunday
+            dd Closed
+            dt Easter
+            dd Check trading hours page
+          dl.definition-list.with-line-break
+            dt Address
+            dd
+              address Level 6 60 Margaret St Sydney
+            dt Phone
+            dd
+              a(href="tel:(07)0000000") (07)0000000
+            dt Fax
+            dd
+              a(href="tel:(07)7777777") (07)7777777
+        strong.ui-title Organisms
+        strong.ui-title.small Gallery
+        .gallery
+          .holder
+            ul.slider
+              li
+                article.block.block--white.b-shadow.small-bottom-indent
+                  figure.media
+                    a(href="#")
+                      img(src="images/content/img-article-1.jpg" width="460" height="260" alt="img-description")
+                    figcaption.caption
+                      a(href="#")
+                        h2.small.orange Mattis Malesuada Nibh Dapibus Elit
+                      p Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+                  .btn-holder.text-center
+                    a.btn.orange(href="#") Read More
+              li
+                article.block.block--white.b-shadow.small-bottom-indent
+                  figure.media
+                    a(href="#")
+                      img(src="images/content/img-article-2.jpg" width="460" height="260" alt="img-description")
+                    figcaption.caption
+                      a(href="#")
+                        h2.small.orange Condimentum Lorem Ligula Mattis
+                      p Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                  .btn-holder.text-center
+                    a.btn.orange(href="#") Read More
+              li
+                article.block.block--white.b-shadow.small-bottom-indent
+                  figure.media
+                    a(href="#")
+                      img(src="images/content/img-article-2.jpg" width="460" height="260" alt="img-description")
+                    figcaption.caption
+                      a(href="#")
+                        h2.small.orange Condimentum Lorem Ligula Mattis
+                      p Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                  .btn-holder.text-center
+                    a.btn.orange(href="#") Read More
+              li
+                article.block.block--white.b-shadow.small-bottom-indent
+                  figure.media
+                    a(href="#")
+                      img(src="images/content/img-article-2.jpg" width="460" height="260" alt="img-description")
+                    figcaption.caption
+                      a(href="#")
+                        h2.small.orange Condimentum Lorem Ligula Mattis
+                      p Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                  .btn-holder.text-center
+                    a.btn.orange(href="#") Read More
+              li
+                article.block.block--white.b-shadow.small-bottom-indent
+                  figure.media
+                    a(href="#")
+                      img(src="images/content/img-article-2.jpg" width="460" height="260" alt="img-description")
+                    figcaption.caption
+                      a(href="#")
+                        h2.small.orange Condimentum Lorem Ligula Mattis
+                      p Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                  .btn-holder.text-center
+                    a.btn.orange(href="#") Read More
+              li
+                article.block.block--white.b-shadow.small-bottom-indent
+                  figure.media
+                    a(href="#")
+                      img(src="images/content/img-article-2.jpg" width="460" height="260" alt="img-description")
+                    figcaption.caption
+                      a(href="#")
+                        h2.small.orange Condimentum Lorem Ligula Mattis
+                      p Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                  .btn-holder.text-center
+                    a.btn.orange(href="#") Read More
+          .pagination
+    //main ends
+  //wrapper ends
+  //footer starts
+  include modules/footer
+  //footer ends

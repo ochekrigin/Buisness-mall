@@ -1,0 +1,323 @@
+/* buttons atom styles start */
+button {
+  &.btn {
+    color: #000;
+    padding: 0 5px;
+    margin: 0 0 5px;
+  }
+}
+.btn {
+  @include border-radius(4px);
+  @include box-sizing(border-box);
+  border: 2px solid $gray-middle;
+  color: $gray-lightest;
+  cursor: pointer;
+  display: inline-block;
+  font: 600 #{$base-font-size - 1px}/#{$biger-line-height - 4px} $gudea;
+  height: 37px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 100%;
+  @media only screen and (min-width: $md-breakpoint) {width: auto;}
+  &:hover {
+    background: $gray-middle;
+    color: #000;
+    text-decoration: none;
+  }
+  &.orange {
+    color: $gray-lightest;
+    &:hover {
+      background: $orange;
+      border-color: #fcdfda;
+      color: $white;
+    }
+  }
+  &.dark-orange {
+    background: #f47920;
+    border: none;
+    color: $white;
+    font-weight: 400;
+    position: relative;
+  }
+  &.white {
+    color: $orange;
+    position: relative;
+    border: none;
+    span {background: $white;}
+  }
+  &.smallest {
+    border: 1px solid #9c9c9c;
+    height: 34px;
+    line-height: 32px;
+    text-transform: none;
+    &:hover {
+      background: $white;
+      color: #b4b4b5;
+      .is-desktop & {
+        background: $white;
+        border-color: $orange;
+        color: $orange;
+      }
+    }
+  }
+  &.large {
+    font: 700 #{$big-font-size - 2px}/52px $gudea;
+    height: 50px;
+    overflow: visible;
+    padding: 0;
+    text-transform: none;
+    .map-box & {
+      background: none;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    @media only screen and (min-width: $md-breakpoint) {
+      font: 700 #{$big-font-size - 2px}/#{($biger-line-height * 2) - 7px} $gudea;
+      height: 68px;
+      min-width: 294px;
+    }
+    &:after {
+      @include border-radius(6px);
+      border: 5px solid rgba(240, 78, 48, 0.35);
+      bottom: -5px;
+      content: '';
+      left: -5px;
+      position: absolute;
+      right: -5px;
+      top: -5px;
+    }
+    span {
+      @include border-radius(2px);
+      display: block;
+      overflow: hidden;
+      padding: 0 16px;
+      .map-box & {padding: 0 8px;}
+    }
+    &.small {
+      @include border-radius(1px);
+      height: 51px;
+      .map-box & {
+        height: 45px;
+        line-height: 45px;
+        min-width: 0;
+      }
+      &:after {
+        .map-box & {
+          @include border-radius(5px);
+          border: 5px solid #fac1b7;
+          content: '';
+          position: absolute;
+          right: -1px;
+          bottom: 0;
+          left: -1px;
+          top: 0;
+        }
+      }
+      @media only screen and (min-width: $md-breakpoint) {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 51px;
+        min-width: 299px;
+        .map-box & {
+          font-size: 15px;
+          font-weight: 600;
+          height: 45px;
+          line-height: 45px;
+          min-width: 0;
+        }
+        &:after {
+          @include border-radius(4px);
+          border: 3px solid rgba(244, 121, 32, 0.2);
+          bottom: -3px;
+          content: '';
+          left: -3px;
+          position: absolute;
+          right: -3px;
+          top: -3px;
+          .map-box & {
+            @include border-radius(5px);
+            border: 5px solid #fac1b7;
+            bottom: 0;
+            left: -2px;
+            top: 0;
+          }
+        }
+      }
+      span {
+        @include border-radius(1px);
+        @include ellipsis;
+        .map-box & {
+          @include border-radius(5px);
+        }
+      }
+    }
+  }
+  &.middle {
+    background: $white;
+    border: 2px solid #ebebeb;
+    color: $gray;
+    font-size: $base-font-size - 3px;
+    font-weight: 600;
+    height: 42px;
+    line-height: 39px;
+    margin: 0 0 8px;
+    padding: 0 10px;
+    text-transform: none;
+    @media only screen and (min-width: $md-breakpoint) {
+      height: 55px;
+      line-height: 52px;
+    }
+    @media only screen and (min-width: $lg-breakpoint) {margin: 0 0 22px;}
+    @media only screen and (min-width: $xl-breakpoint) {font-size: $base-font-size - 1px;}
+    .ico {
+      margin-left: 0;
+      margin-right: 8px;
+      margin-top: -5px;
+      @media only screen and (min-width: $md-breakpoint) {
+        margin-left: 5px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.btn-circle {
+  @include border-radius(120px);
+  background: $orange;
+  border: 2px solid darken($orange, 5%);
+  display: inline-block;
+  font: 13px/17px $museo;
+  font-weight: 400;
+  height: 88px;
+  overflow: hidden;
+  padding: 20px 8px;
+  text-align: center;
+  vertical-align: top;
+  width: 114px;
+  @media only screen and (min-width: $sm-breakpoint) {
+    @include border-radius(120px);
+    font-size: 17px;
+    height: 142px;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 148px;
+  }
+  .item-table {height: 100%;}
+  .sub-text {
+    font: 400 13px/20px $museo;
+    letter-spacing: 1px;
+    @media only screen and (min-width: $sm-breakpoint) {
+      font-size: 17px;
+      line-height: 25px;
+    }
+  }
+}
+.nav-opener {
+  background: $icons;
+  @include retina-sprite-background(nav, $retina);
+  @include sprite-dimensions($icons, nav);
+  background-position: sprite-position($icons, nav);
+  text-indent: -9999px;
+  overflow: hidden;
+  .main-page & {
+    background: $icons;
+    @include retina-sprite-background(nav-orange, $retina);
+    @include sprite-dimensions($icons, nav-orange);
+    background-position: sprite-position($icons, nav-orange);
+  }
+}
+.btn-search {
+  background: #ebebeb;
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  outline: none;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 51px;
+  @media only screen and (min-width: $md-breakpoint) {height: 51px;}
+  &:after {
+    content: '';
+    background: $icons;
+    @include retina-sprite-background(search, $retina);
+    @include sprite-dimensions($icons, search);
+    background-position: sprite-position($icons, search);
+    left: 50%;
+    margin: -9px 0 0 -9px;
+    position: absolute;
+    top: 50%;
+  }
+}
+.layout-switcher {
+  color: $orange;
+  font: #{$base-font-size}/#{$base-line-height} $gudea;
+  padding: 0 0 0 35px;
+  position: relative;
+  &:hover {text-decoration: none;}
+  &.grid {
+    &:after {
+      content: '';
+      background: $icons;
+      @include retina-sprite-background(grid, $retina);
+      @include sprite-dimensions($icons, grid);
+      background-position: sprite-position($icons, grid);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  &.list-view {
+    &:after {
+      content: '';
+      background: $icons;
+      @include retina-sprite-background(list, $retina);
+      @include sprite-dimensions($icons, list);
+      background-position: sprite-position($icons, list);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+button[data-filter].active {
+  background: $gray;
+  color: $white;
+}
+.btn-close {
+  @include border-radius(50%);
+    background-image: none;
+    background: $white;
+    height: 24px;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    right: -12px;
+    text-indent: -9999px;
+    top: -12px;
+    width: 24px;
+    &:after {
+      content: '';
+      background: $icons;
+      @include retina-sprite-background(cross, $retina);
+      @include sprite-dimensions($icons, cross);
+      background-position: sprite-position($icons, cross);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -4px 0 0 -4px;
+    }
+    &:hover {
+      &:after {
+        @include retina-sprite-background(cross-orange, $retina);
+        @include sprite-dimensions($icons, cross-orange);
+        background-position: sprite-position($icons, cross-orange);
+      }
+    }
+}
+/* buttons atom styles end */

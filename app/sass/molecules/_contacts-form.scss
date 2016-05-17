@@ -1,0 +1,79 @@
+.contacts-form {
+  padding: 4px 10px 0;
+  @media only screen and (min-width: $md-breakpoint) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @media only screen and (min-width: $lg-breakpoint) {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media only screen and (min-width: $xl-breakpoint) {
+    padding-bottom: 28px;
+    padding-top: 1px;
+  }
+  h2 {
+    margin-bottom: 34px;
+    @media only screen and (min-width: $sm-breakpoint) {margin-bottom: 38px;}
+    @media only screen and (min-width: $md-breakpoint) {margin-bottom: 36px;}
+    @media only screen and (min-width: $xl-breakpoint) {margin-bottom: 52px;}
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {margin: 0;}
+  label {
+    @media only screen and (min-width: $sm-breakpoint) {margin: 15px 0 0 -9px;}
+  }
+  .grid-row {
+    .grid-row {
+      margin: 0 0 15px;
+      @media only screen and (min-width: $lg-breakpoint) {margin: 0 0 20px;}
+    }
+  }
+  .input-holder {
+    @media only screen and (min-width: $sm-breakpoint) {margin: 0 -10px 0 13px;}
+  }
+  textarea {
+    height: 100px;
+    margin: 0 0 15px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      height: 127px;
+      margin: 0 0 23px;
+    }
+  }
+  .btn-holder {padding: 0 3px;}
+  .message {
+    color: $orange-light;
+    display: none;
+    padding-top: 11px;
+    @media only screen and (min-width: $md-breakpoint) {padding-top: 10px;}
+    @media only screen and (min-width: $lg-breakpoint) {padding-top: 18px;}
+  }
+  .frame {
+    padding: 3px 0 0;
+    @media only screen and (min-width: $md-breakpoint) {padding-top: 1px;}
+    @media only screen and (min-width: $lg-breakpoint) {padding: 0 0 0 7px;}
+    @media only screen and (min-width: $xl-breakpoint) {padding-left: 56px;}
+    h2 {
+      margin-bottom: 34px;
+      @media only screen and (min-width: $md-breakpoint) {margin-bottom: 31px;}
+      @media only screen and (min-width: $lg-breakpoint) {margin-bottom: 20px;}
+      @media only screen and (min-width: $xl-breakpoint) {margin-bottom: 37px;}
+    }
+  }
+  .definition-list {
+    &.large {
+      @media only screen and (min-width: $lg-breakpoint) {padding: 11px 0 0;}
+      dt {margin-bottom: 6px;}
+      dd {
+        margin-bottom: 10px;
+        @media only screen and (min-width: $lg-breakpoint) {margin-bottom: 37px;}
+      }
+    }
+  }
+  &.show-message {
+    .message {display: block;}
+  }
+}

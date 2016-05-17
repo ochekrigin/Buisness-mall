@@ -1,0 +1,145 @@
+/* icons atom styles start */
+$icons: sprite-map('../images/icons/*.png', $layout: smart);
+$retina: sprite-map('../images/icons2x/*.png', $layout: vertical, $spacing: 4px);
+[class^="ico"] {
+  background: $icons;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+}
+@each $i in sprite_names($icons) {
+  .ico-#{$i} {
+    @include sprite-dimensions($icons, $i);
+    background-position: sprite-position($icons, $i);
+  }
+}
+@mixin retina-sprite-background($name, $retina) {
+  @media (min--moz-device-pixel-ratio: 1.3),
+    (-o-min-device-pixel-ratio: 2.6/2),
+    (-webkit-min-device-pixel-ratio: 1.3),
+    (min-device-pixel-ratio: 1.3),
+    (min-resolution: 1.3dppx) {
+      background-image: sprite-url($retina);
+      background-position: 0 round(nth(sprite-position($retina, $name), 2) / 2);
+      height: round(image-height(sprite-file($retina, $name)) / 2);
+      width: round(image-width(sprite-file($retina, $name)) / 2);
+      $double-width: ceil(image-width(sprite-path($retina)) / 2);
+      $auto-height: auto;
+      @include background-size($double-width $auto-height);
+  }
+}
+a[class^="ico"] {
+  text-indent: -9999px;
+  text-align: left;
+}
+.ico-star {
+  background: $icons;
+  @include retina-sprite-background(star, $retina);
+  @include sprite-dimensions($icons, star);
+  background-position: sprite-position($icons, star);
+  display: inline-block;
+  margin: -2px 10px 2px -12px;
+  position: relative;
+  vertical-align: middle;
+  @media only screen and (min-width: $md-breakpoint) {margin: -2px 19px 2px -12px;}
+  &.no-indent {margin: 0 5px;}
+}
+.caferestaurants,
+.ico.cafe-restaurants {
+  background: $icons;
+  @include retina-sprite-background(cafe, $retina);
+  @include sprite-dimensions($icons, cafe);
+  background-position: sprite-position($icons, cafe);
+  position: relative;
+  vertical-align: middle;
+  .mapplic-map & {
+    @include retina-sprite-background(cafe-large, $retina);
+    @include sprite-dimensions($icons, cafe-large);
+    background-position: sprite-position($icons, cafe-large);
+  }
+}
+.fashionfashionaccessories,
+.ico.fashionaccessories,
+.ico.fashion {
+  background: $icons;
+  @include retina-sprite-background(fashion, $retina);
+  @include sprite-dimensions($icons, fashion);
+  background-position: sprite-position($icons, fashion);
+  position: relative;
+  vertical-align: middle;
+  .mapplic-map & {
+    @include retina-sprite-background(fashion-large, $retina);
+    @include sprite-dimensions($icons, fashion-large);
+    background-position: sprite-position($icons, fashion-large);
+  }
+}
+.foodtakeaway,
+.ico.foodfoodtakeaway {
+  background: $icons;
+  @include retina-sprite-background(food, $retina);
+  @include sprite-dimensions($icons, food);
+  background-position: sprite-position($icons, food);
+  position: relative;
+  vertical-align: middle;
+  .mapplic-map & {
+    @include retina-sprite-background(food-large, $retina);
+    @include sprite-dimensions($icons, food-large);
+    background-position: sprite-position($icons, food-large);
+  }
+}
+.foodfreshfoodtakehome,
+.ico.foodcourt {
+  background: $icons;
+  @include retina-sprite-background(fresh-food, $retina);
+  @include sprite-dimensions($icons, fresh-food);
+  background-position: sprite-position($icons, fresh-food);
+  position: relative;
+  vertical-align: middle;
+  .mapplic-map & {
+    @include retina-sprite-background(fresh-food-large, $retina);
+    @include sprite-dimensions($icons, fresh-food-large);
+    background-position: sprite-position($icons, fresh-food-large);
+  }
+}
+.ico.services {
+  background: $icons;
+  @include retina-sprite-background(services, $retina);
+  @include sprite-dimensions($icons, services);
+  background-position: sprite-position($icons, services);
+  position: relative;
+  vertical-align: middle;
+  .mapplic-map & {
+    @include retina-sprite-background(services-large, $retina);
+    @include sprite-dimensions($icons, services-large);
+    background-position: sprite-position($icons, services-large);
+  }
+}
+.giftsmiscellaneous,
+.ico.gifts-miscellaneous {
+  background: $icons;
+  @include retina-sprite-background(gifts, $retina);
+  @include sprite-dimensions($icons, gifts);
+  background-position: sprite-position($icons, gifts);
+  position: relative;
+  vertical-align: middle;
+  .mapplic-map & {
+    @include retina-sprite-background(gifts-large, $retina);
+    @include sprite-dimensions($icons, gifts-large);
+    background-position: sprite-position($icons, gifts-large);
+  }
+}
+.healthbeauty,
+.ico.health-beauty {
+  background: $icons;
+  @include retina-sprite-background(health, $retina);
+  @include sprite-dimensions($icons, health);
+  background-position: sprite-position($icons, health);
+  position: relative;
+  vertical-align: middle;
+  .mapplic-map & {
+    @include retina-sprite-background(health-large, $retina);
+    @include sprite-dimensions($icons, health-large);
+    background-position: sprite-position($icons, health-large);
+  }
+}
+/* icons atom styles end */

@@ -1,0 +1,23 @@
+/* global classes for elements alignment styles start */
+.align-left {float: left !important;}
+.align-right {float: right !important;}
+.text-left {text-align: left !important;}
+.text-center {text-align: center !important;}
+.text-right {text-align: right !important;}
+.xl-text-right {
+	text-align: center;
+	@media only screen and (min-width: $xl-breakpoint) {text-align: right;}
+}
+.lg-text-right {
+	text-align: left;
+	@media only screen and (min-width: $xl-breakpoint) {text-align: right;}
+}
+.lg-align-right {
+	float: none !important;
+	@media only screen and (min-width: $lg-breakpoint) {float: right !important;}	
+}
+.lg-align-left {
+	float: none !important;
+	@media only screen and (min-width: $lg-breakpoint) {float: left !important;}	
+}
+/* global classes for elements alignment styles end */

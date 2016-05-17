@@ -1,0 +1,65 @@
+.media {
+  margin: -20px -10px 0;
+  position: relative;
+  @media only screen and (min-width: $md-breakpoint) {margin: -20px -20px 0;}
+  img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .caption {
+    padding: 0 10px;
+    min-height: 138px;
+    @media only screen and (min-width: $md-breakpoint) {
+      padding: 0 20px;
+    }
+  }
+  .wistia_embed {
+    height: 225px;
+    margin: 0 0 20px !important;
+    max-width: 100%;
+  }
+  &.small-item {
+    margin-bottom: -30px;
+    @media only screen and (min-width: $md-breakpoint) {margin-bottom: 26px;}
+    img {
+      margin: 0 auto 14px;
+      @media only screen and (min-width: $xs-breakpoint) {max-width: 280px;}
+      @media only screen and (min-width: $sm-breakpoint + 5px) {max-width: 300px;}
+    }
+    .grid-row {margin-bottom: 0;}
+    .caption {
+      min-height: 0;
+      padding: 0 5px;
+      @media only screen and (min-width: $md-breakpoint) {padding: 0 13px;}
+    }
+  }
+}
+a.search-item {
+  &:hover {
+    text-decoration: none;
+    h2 {color: $gray;}
+  }
+}
+.small-item + .else-item {display: none;}
+.link {
+  &:hover {
+    color: $orange;
+    &.phone {
+      &:after {
+        @include retina-sprite-background(phone-large-orange, $retina);
+        @include sprite-dimensions($icons, phone-large-orange);
+        background-position: sprite-position($icons, phone-large-orange);
+      }
+    }
+    &.view-map {
+      &:after {
+        @include retina-sprite-background(marker-orange, $retina);
+        @include sprite-dimensions($icons, marker-orange);
+        background-position: sprite-position($icons, marker-orange);
+      }
+    }
+  }
+}
+.wistia_popover_mode {overflow: hidden;}

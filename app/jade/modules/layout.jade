@@ -1,0 +1,97 @@
+include ../dev/common
+doctype html
+= "\n\r"
+<html lang="en">
+head
+  meta(charset="utf-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+  block title
+    - var title = 'Metcentre'
+  title= title
+  block fonts
+    link(rel="shortcut icon", href="images/decorations/favicon.ico", type="image/x-ico")
+  // build:remove 
+  block bowerStyles
+    link(href="../bower_components/EasyAutocomplete/dist/easy-autocomplete.min.css", rel="stylesheet", type="text/css")
+  // /build 
+  +replaceTpl('markup')
+    block markupStyles
+  // build:css:build css/metcentre.min.css
+  block styles
+    link(rel="stylesheet", href="css/all.css")
+  // /build
+  = "\n\r  "
+  +ie('if IE 9')
+    link(rel="stylesheet", href="css/ie9.css")
+  // build:remove
+  // /build
+  +ieTpl
+body
+  block body
+  script(type='text/javascript' async).
+    WebFontConfig = {
+      google: { families: [ 'Gudea:400,400italic,700:latin', 'Montserrat:400,700:latin'] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  script#typekit-script(async src="https://use.typekit.net/ijv5fqz.js")
+  script.
+    document.getElementById('typekit-script')
+            .onload = function() {
+              try{Typekit.load();}catch(e){}
+            };
+  script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYsVvNcvQWp6SedrHoBJ2med-t9WyLuzw&libraries=places")
+  script(async src="https://fast.wistia.com/assets/external/E-v1.js")
+  script(src='//assets.juicer.io/embed.js', type='text/javascript')
+  link(href='//assets.juicer.io/embed.css', media='all', rel='stylesheet', type='text/css') 
+  ul.juicer-feed(data-feed-id='xperior')
+    h1.referral
+      a(href='https://www.juicer.io') Powered by Juicer
+  // build:remove 
+  block bowerScripts
+    script(src="../bower_components/jquery/dist/jquery.min.js")
+    script(src="../bower_components/hammerjs/hammer.js")
+    script(src="../bower_components/EasyAutocomplete/dist/jquery.easy-autocomplete.min.js")
+    script(src="../bower_components/jquery-easing/jquery.easing.js")
+    script(src="../bower_components/jquery.xml2json/src/jquery.xml2json.js")
+    script(src="../bower_components/vue/dist/vue.min.js")
+    script(src="../bower_components/jquery-mousewheel/jquery.mousewheel.js")
+  // /build 
+  +replaceTpl('markup')
+    block markupScripts
+      script(src="js/plugins/jquery.min.js")
+      script(src="js/plugins/hammer.min.js")
+      script(src="js/plugins/jquery.easy-autocomplete.min.js")
+      script(src="js/plugins/jquery.mousewheel.min.js")
+      script(src="js/plugins/jquery.easing.min.js")
+      script(src="js/plugins/jquery.xml2json.min.js")
+      script(src="js/plugins/vue.min.js")
+  // build:remove:build 
+  //include plugins
+  block pluginsScripts
+    script(src="js/config.js")
+    script(src="js/jquery.analytics.js")
+    script(src="js/jquery.utilities.js")
+    script(src="js/jquery.init-maps.js")
+    script(src="js/plugins/mapplic.js")
+    script(src="js/jquery.autocomplete.init.js")
+    script(src="js/jquery.carousel.js")
+    script(src="js/jquery.data-bind.js")
+    script(src="js/jquery.filter.js")
+    script(src="js/jquery.custom-select.js")
+    script(src="js/jquery.form-validator.js")
+    script(src="js/plugins/jquery.geocomplete.min.js")
+    script(src="js/jquery.init-plugins.js")
+  //init plugins
+  block initScripts
+  // /build 
+  +replaceTpl('build')
+    script(async src="js/metcentre.min.js")
+  block customScripts
+!= "\n\r</html>"

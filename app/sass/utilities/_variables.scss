@@ -1,0 +1,76 @@
+$museo:                      "museo-sans", Helvetica, Arial, sans-serif;
+$gudea:                      "Gudea", Helvetica, Arial, sans-serif;
+$montserrat:                 "Montserrat", Helvetica, Arial, sans-serif;
+
+// font size variables start
+$base-font-size:                    16px;
+$small-font-size:                   $base-font-size - 3px; // 11px
+$big-font-size:                     $base-font-size + 6px; // 20px
+$biger-font-size:                   ($base-font-size * 2) - 2px; // 26px
+$bigest-font-size:                  ($base-font-size * 2) + 8px; // 36px
+// font size variables end
+
+// line height variables start
+$base-line-height:                  $base-font-size + 8px; // 22px
+$small-line-height:                 $small-font-size + 8px; // 19px
+$big-line-height:                   $big-font-size + 8px; // 28px
+$biger-line-height:                 $biger-font-size + 8px; // 34px
+$bigest-line-height:                $bigest-font-size + 8px; // 44px
+// line height variables end
+
+// buttons line height variables start
+$base-btn-line-height:              46px;
+$small-btn-line-height:             $base-btn-line-height - 16px;
+$big-btn-line-height:               $base-btn-line-height + 10px;
+// buttons line height variables end
+
+// border radius variables start
+$small-border-radius:               3px;
+$base-border-radius:                5px;
+$large-border-radius:               8px;
+// border radius variables end
+
+// colors variables start
+$black:                             #000;
+$black-light:                       #6b6e72;
+$blue-light:                        #58c3ff;
+$blue:                              #569fd3;
+$dark-orange:                       #f2a300;
+$gray-dark:                         #f6f6f6;
+$gray-darker:                       #222;
+$gray-light:                        #838181;
+$gray-lighter:                      #bcbdbd;
+$gray-lightest:                     #b4b4b5;
+$gray-middle:                       #ececec;
+$gray:                              #939598;
+$green-light:                       #727000;
+$green:                             #888600;
+$orange:                            #f16045;
+$yellow:                            #fdb814;
+$orange-light:                      #eda496;
+$pink:                              #ff646f;
+$purple:                            #e21157;
+$red:                               #f33;
+$white:                             #fff;
+// colors variables end
+// new
+$light-gray-blue: #6cbcba;
+$dark-gray-blue: #4ca5a3;
+$green-lightest: #97d1c6;
+// new
+
+// other variables start
+$base-vertical-indent:              25px;
+$base-side-indent:                  20px;
+$max-width:                         940px;
+// other variables end
+
+// breakpoints start
+$xs-breakpoint: 320px;
+$sm-breakpoint: 480px;
+$xm-breakpoint: 568px;
+$md-breakpoint: 640px;
+$lg-breakpoint: 768px;
+$xl-breakpoint: 960px;
+$lxl-breakpoint: 1300px;
+// breakpoints end

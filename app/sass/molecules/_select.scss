@@ -1,0 +1,88 @@
+select {width: 100%;}
+.select-holder {position: relative;}
+.outtaHere {
+  left: -9999px !important;
+  position: absolute !important;
+}
+/* custom select styles start */
+.selectArea {
+  border: 3px solid #ebebeb;
+  @include border-radius(4px);
+  @include box-sizing(border-box);
+  color: $gray;
+  font-family: $gudea;
+  font-size: $base-font-size;
+  font-weight: 600;
+  line-height: $big-font-size;
+  height: 47px;
+  position: relative;
+  .left {display: none;}
+  .center {padding: 9px 35px 9px 5px;}
+  &.selectAreaActive {
+    .selectButton {
+      .ico {
+        background: $icons;
+        @include retina-sprite-background(arrow-top, $retina);
+        @include sprite-dimensions($icons, arrow-top);
+        background-position: sprite-position($icons, arrow-top);
+      }
+    }
+  }
+}
+.selectButton {
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  .ico {
+    background: $icons;
+    @include retina-sprite-background(arrow-bottom, $retina);
+    @include sprite-dimensions($icons, arrow-bottom);
+    background-position: sprite-position($icons, arrow-bottom);
+    overflow: hidden;
+    position: absolute;
+    right: 16px;
+    top: 18px;
+  }
+}
+.selectOptions {
+  @include border-radius(0 0 4px 4px);
+  @include box-sizing(border-box);
+  border: 3px solid #ebebeb;
+  margin: -3px 0 0;
+  max-height: 150px;
+  overflow: auto;
+  z-index: 2000;
+  .select-list {
+    position: relative;
+    width: 100%;
+    @include box-sizing(border-box);
+  }
+  ul {
+    background: $white;
+    color: $gray;
+    font-family: $gudea;
+    font-size: $base-font-size;
+    font-weight: 600;
+    line-height: $big-font-size;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    li {vertical-align: top;}
+  }
+  a {
+    color: $gray;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 3px 5px;
+    text-decoration: none;
+    &:hover {background: #ccc;}
+  }
+}
+/* custom select styles end */

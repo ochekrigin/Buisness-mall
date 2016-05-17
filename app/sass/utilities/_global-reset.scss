@@ -1,0 +1,76 @@
+nav,
+header,
+footer,
+section,
+article,
+figure {display: block;}
+html,
+body {min-height: 100%;}
+html {
+  &.hide-content,
+  &.is-active-nav,
+  &.is-active-lightbox {
+    &,
+    body {
+      height: 100%;
+      min-height: 0;
+      overflow: hidden;
+    }
+    #wrapper {height: 100%;}
+  }
+}
+body {
+  background: $gray-dark;
+  color: $gray;
+  font: 400 #{$base-font-size}/#{$base-line-height - 5px} $gudea;
+  margin: 0;
+  min-width: 320px;
+  -webkit-text-size-adjust: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 0 10px;
+}
+.container-wide {max-width: $max-width + 406px;}
+a {
+  color: $gray-dark;
+  text-decoration: none;
+}
+a[href^="tel:"] {text-decoration: none;}
+.is-desktop {
+  a:hover {
+    text-decoration: none;
+  }
+}
+img {border: none;}
+form,
+fieldset {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+  -webkit-appearance: none;
+  border: none;
+  -webkit-border-radius: 0;
+  outline: none;
+}
+textarea {resize: none;}
+button::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+audio,
+canvas,
+video {display: inline-block;}
+figure {
+  margin: 0;
+  padding: 0;
+}

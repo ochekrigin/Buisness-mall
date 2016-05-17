@@ -1,0 +1,29 @@
+.post {
+  margin: 0 0 28px;
+  padding: 0 12px;
+  position: relative;
+  @media only screen and (min-width: $lg-breakpoint) {padding: 0;}
+  &.b-shadow {
+    &:after {background: #f5f5f5;}
+  }
+  a {
+    color: $gray;
+    &:hover {
+      text-decoration: none;
+      .btn {
+        background: $orange;
+        border-color: #fcdfda;
+        color: $white;
+      }
+    }
+  }
+  .media {
+    margin-top: -5px;
+    p {margin: 0 0 18px;}
+    .media-caption {padding: 0;}
+  }
+}
+.visual-item {
+  margin-bottom: 30px !important;
+  @media only screen and (min-width: $lg-breakpoint) {margin-bottom: 91px !important;}
+}

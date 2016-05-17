@@ -1,0 +1,3611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channel id="33" identifier="web-local-directory">
+  <subChannel id="60" identifier="web-local-directory">
+    <feedItem index="0" feedItemsId="3897974" feedIdentifier="pp-web-directory-services" feedItemTypeIdentifier="building-directory">
+      <title>Maurice Dry Cleaners</title>
+      <created>2015-12-18 12:45:31</created>
+      <starts>2015-12-18 12:45:31</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.0413</mapCoordinateX>
+        <mapCoordinateY>0.0316</mapCoordinateY>
+        <mapStoreId>T02a</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Maurice Dry Cleaners</title>
+        <name>Maurice Dry Cleaners</name>
+        <body>At Maurice Dry Cleaners, we look after all your needs with priority service, and specialising in suits, delicate silks, leather and suede.</body>
+        <address>Ground Level T02a</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 8915</phone>
+        <category>Services</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="1" feedItemsId="3897975" feedIdentifier="pp-web-directory-services" feedItemTypeIdentifier="building-directory">
+      <title>STA Travel</title>
+      <created>2015-12-18 12:45:31</created>
+      <starts>2015-12-18 12:45:31</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.1143</mapCoordinateX>
+        <mapCoordinateY>0.0289</mapCoordinateY>
+        <mapStoreId>T05</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>STA Travel</title>
+        <name>STA Travel</name>
+        <body>Great deals for everyone.</body>
+        <address>Ground Level T05</address>
+        <web>www.statravel.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9146 7690</phone>
+        <category>Services</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="2" feedItemsId="3897973" feedIdentifier="pp-web-directory-services" feedItemTypeIdentifier="building-directory">
+      <title>Flight Centre</title>
+      <created>2015-12-18 12:45:30</created>
+      <starts>2015-12-18 12:45:30</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3767</mapCoordinateX>
+        <mapCoordinateY>0.0901</mapCoordinateY>
+        <mapStoreId>G17</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Flight Centre</title>
+        <name>Flight Centre</name>
+        <body>Flight Centre goes out of our way to find the best holiday for every client needs. We can organise flights, hotels, car hire, coach tours, independent travellers, travel insurance, gift vouchers, bridal registry and much more.</body>
+        <address>Ground Level G17</address>
+        <web>www.flightcentre.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9241 3052</phone>
+        <category>Services</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="3" feedItemsId="3897972" feedIdentifier="pp-web-directory-services" feedItemTypeIdentifier="building-directory">
+      <title>Citibank</title>
+      <created>2015-12-18 12:45:29</created>
+      <starts>2015-12-18 12:45:29</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.1072</mapCoordinateX>
+        <mapCoordinateY>0.1164</mapCoordinateY>
+        <mapStoreId>T15</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Citibank</title>
+        <name>Citibank</name>
+        <body>Rethink banking with tailored services to suit your lifestyle.</body>
+        <address>Ground Level T15</address>
+        <web>www.citibank.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>8573 3560</phone>
+        <category>Services</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="4" feedItemsId="3897971" feedIdentifier="pp-web-directory-services" feedItemTypeIdentifier="building-directory">
+      <title>Abey's Shoe Repairs &amp; Key Cutting</title>
+      <created>2015-12-18 12:45:27</created>
+      <starts>2015-12-18 12:45:27</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.0568</mapCoordinateX>
+        <mapCoordinateY>0.0283</mapCoordinateY>
+        <mapStoreId>T02b</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Abey's Shoe Repairs &amp; Key Cutting</title>
+        <name>Abey's Shoe Repairs &amp; Key Cutting</name>
+        <body>Shoes repair and key cutting</body>
+        <address>Ground Level T02b</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 9308</phone>
+        <category>Services</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="5" feedItemsId="3893577" feedIdentifier="pp-web-directory-jewellerygifts&amp;miscellaneous" feedItemTypeIdentifier="building-directory">
+      <title>World Newsagency</title>
+      <created>2015-12-16 11:53:53</created>
+      <starts>2015-12-16 11:53:53</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2642</mapCoordinateX>
+        <mapCoordinateY>0.1388</mapCoordinateY>
+        <mapStoreId>G11</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>World Newsagency</title>
+        <name>World Newsagency</name>
+        <body>Daily newspapers including local, interstate, and international.</body>
+        <address>Ground Level G11</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 9317</phone>
+        <category>Jewellery Gifts &amp; Miscellaneous</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="6" feedItemsId="3893576" feedIdentifier="pp-web-directory-jewellerygifts&amp;miscellaneous" feedItemTypeIdentifier="building-directory">
+      <title>Vodafone Select</title>
+      <created>2015-12-16 11:53:52</created>
+      <starts>2015-12-16 11:53:52</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.0922</mapCoordinateX>
+        <mapCoordinateY>0.0309</mapCoordinateY>
+        <mapStoreId>T04</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Vodafone Select</title>
+        <name>Vodafone Select</name>
+        <body>At Vodaphone Select, we offer a wide range of mobile phones, phone plans, and accessories.</body>
+        <address>Ground Level T04</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9241 6688</phone>
+        <category>Jewellery Gifts &amp; Miscellaneous</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="7" feedItemsId="3893575" feedIdentifier="pp-web-directory-jewellerygifts&amp;miscellaneous" feedItemTypeIdentifier="building-directory">
+      <title>Pearsons Florist</title>
+      <created>2015-12-16 11:53:51</created>
+      <starts>2015-12-16 11:53:51</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3277</mapCoordinateX>
+        <mapCoordinateY>0.4803</mapCoordinateY>
+        <mapStoreId>K02</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Pearsons Florist</title>
+        <name>Pearsons Florist</name>
+        <body>Pearsons Florist is a family owned and operated business with nearly 40 years experience in providing quality, creativity and service in floral design to Australia. </body>
+        <address> K02</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 1666</phone>
+        <category>Jewellery Gifts &amp; Miscellaneous</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="8" feedItemsId="3893574" feedIdentifier="pp-web-directory-jewellerygifts&amp;miscellaneous" feedItemTypeIdentifier="building-directory">
+      <title>Kikki K</title>
+      <created>2015-12-16 11:53:50</created>
+      <starts>2015-12-16 11:53:50</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2742</mapCoordinateX>
+        <mapCoordinateY>0.1901</mapCoordinateY>
+        <mapStoreId>G10</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Kikki K</title>
+        <name>Kikki K</name>
+        <body>We love the simplicity &amp; timelessness of Swedish design, and in case you haven't guessed, we just love creating every-day-use stationery, home/office objects and gorgeous gifts that bring a sense of fashion &amp; style to every-day life.</body>
+        <address>Ground Level G10</address>
+        <web>www.kikki-k.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>8278 7013</phone>
+        <category>Jewellery Gifts &amp; Miscellaneous</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="9" feedItemsId="3893573" feedIdentifier="pp-web-directory-jewellerygifts&amp;miscellaneous" feedItemTypeIdentifier="building-directory">
+      <title>Everything Party &amp; Home Pop Up Shop</title>
+      <created>2015-12-16 11:53:49</created>
+      <starts>2015-12-16 11:53:49</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.4793</mapCoordinateX>
+        <mapCoordinateY>0.1941</mapCoordinateY>
+        <mapStoreId>G20</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Everything Party &amp; Home Pop Up Shop</title>
+        <name>Everything Party &amp; Home Pop Up Shop</name>
+        <body>Select from a comprehensive range of gift boxes, cards and wrap as well as homewares, ornaments, scented candles and glass.</body>
+        <address>Ground Level G20</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 6369</phone>
+        <category>Jewellery Gifts &amp; Miscellaneous</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="10" feedItemsId="3893572" feedIdentifier="pp-web-directory-jewellerygifts&amp;miscellaneous" feedItemTypeIdentifier="building-directory">
+      <title>Dr Boom Communications</title>
+      <created>2015-12-16 11:53:48</created>
+      <starts>2015-12-16 11:53:48</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2412</mapCoordinateX>
+        <mapCoordinateY>0.0289</mapCoordinateY>
+        <mapStoreId>T11</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Dr Boom Communications</title>
+        <name>Dr Boom Communications</name>
+        <body>Dr Boom Communications specialises in Mobile phone and Tablet repairs and Accessories.</body>
+        <address>Ground Level T11</address>
+        <web>www.drboom.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9251 1138</phone>
+        <category>Jewellery Gifts &amp; Miscellaneous</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="11" feedItemsId="3893571" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Sydney Nails</title>
+      <created>2015-12-16 11:52:45</created>
+      <starts>2015-12-16 11:52:45</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.8313</mapCoordinateX>
+        <mapCoordinateY>0.3388</mapCoordinateY>
+        <mapStoreId>MG26</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Sydney Nails</title>
+        <name>Sydney Nails</name>
+        <body>Conveniently located in the heart of the CBD Sydney Nails (now located where LêAmour Nails used to be upstairs) offers a range of nail services including; manicures and pedicures, as well as acrylic and gel nails and Shellac polish.</body>
+        <address>Mezzanine MG26</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 6684</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="12" feedItemsId="3893570" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Pure Health</title>
+      <created>2015-12-16 11:52:44</created>
+      <starts>2015-12-16 11:52:44</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.1913</mapCoordinateX>
+        <mapCoordinateY>0.0283</mapCoordinateY>
+        <mapStoreId>T08</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Pure Health</title>
+        <name>Pure Health</name>
+        <body>Discounted pricing on Blackmores, Natures Own, Natural Nutrition, Bio-Organics, Pretorius, Nutralife, Herbs of Gold, Quick Cleanse Detox Products, Skin Doctors, Naturopathica, Green Medicine and most other brands.</body>
+        <address>Ground Level T08</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 8889</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="13" feedItemsId="3893569" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>My Healthy Massage</title>
+      <created>2015-12-16 11:52:43</created>
+      <starts>2015-12-16 11:52:43</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.8668</mapCoordinateX>
+        <mapCoordinateY>0.3204</mapCoordinateY>
+        <mapStoreId>MG17</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>My Healthy Massage</title>
+        <name>My Healthy Massage</name>
+        <body>Operating since 2001, My Healthy Massage is operated by highly experienced and qualified therapists.</body>
+        <address>Mezzanine MG17</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 6158</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="14" feedItemsId="3893568" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>L'Occitane En Provance</title>
+      <created>2015-12-16 11:52:42</created>
+      <starts>2015-12-16 11:52:42</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3337</mapCoordinateX>
+        <mapCoordinateY>0.3099</mapCoordinateY>
+        <mapStoreId>G36</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>L'Occitane En Provance</title>
+        <name>L'Occitane En Provance</name>
+        <body>L'OCCITANE offers high quality beauty products and fragrances, developed following the principles of phytotherapy and aromatherapy.</body>
+        <address>Ground Level G36</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 3170</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="15" feedItemsId="3893567" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Green Organics</title>
+      <created>2015-12-16 11:52:41</created>
+      <starts>2015-12-16 11:52:41</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.0712</mapCoordinateX>
+        <mapCoordinateY>0.0296</mapCoordinateY>
+        <mapStoreId>T03</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Green Organics</title>
+        <name>Green Organics</name>
+        <body>The World's Best Natural Organic Beauty Brands &amp; Products at the One Place.</body>
+        <address>Ground Level T03</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>7900 2135</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="16" feedItemsId="3893566" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Get Threaded</title>
+      <created>2015-12-16 11:52:40</created>
+      <starts>2015-12-16 11:52:40</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3822</mapCoordinateX>
+        <mapCoordinateY>0.1342</mapCoordinateY>
+        <mapStoreId>G18</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Get Threaded</title>
+        <name>Get Threaded</name>
+        <body>Threading is an ancient hair removal technique where antibacterial cotton is used by highly trained staff to remove facial hair and shape beautiful brows.</body>
+        <address>Ground Level G18</address>
+        <web>www.getthreadednow.com</web>
+        <orderUrl></orderUrl>
+        <phone>435 521 226</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="17" feedItemsId="3893565" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Ella Rouge Beauty</title>
+      <created>2015-12-16 11:52:39</created>
+      <starts>2015-12-16 11:52:39</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3513</mapCoordinateX>
+        <mapCoordinateY>0.0296</mapCoordinateY>
+        <mapStoreId>G16c</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Ella Rouge Beauty</title>
+        <name>Ella Rouge Beauty </name>
+        <body>Ella Rouge Beautyês philosophy brings skin care forward and beyond with the latest techniques and technology. They offer the ultimate experience for your complete beauty needs.</body>
+        <address>Ground Level G16c</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 3555</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="18" feedItemsId="3893564" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Cosmo Cosmetics</title>
+      <created>2015-12-16 11:52:38</created>
+      <starts>2015-12-16 11:52:38</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.1653</mapCoordinateX>
+        <mapCoordinateY>0.0309</mapCoordinateY>
+        <mapStoreId>T07</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Cosmo Cosmetics</title>
+        <name>Cosmo Cosmetics</name>
+        <body>Offering fantastic skincare and make-up gift packs from Madame Milly and Academy of Colour as well as kids novelty bath sets.</body>
+        <address>Ground Level T07</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 7865</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="19" feedItemsId="3893563" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>CBD Barber</title>
+      <created>2015-12-16 11:52:37</created>
+      <starts>2015-12-16 11:52:37</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2097</mapCoordinateX>
+        <mapCoordinateY>0.0309</mapCoordinateY>
+        <mapStoreId>T09</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>CBD Barber</title>
+        <name>CBD Barber</name>
+        <body>Quality mens hairdressing in the heart of the CBD with everyday great value. CBD Barber stock the full range of •crewê products.</body>
+        <address>Ground Level T09</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 3377</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="20" feedItemsId="3893562" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Artis Hairdressing</title>
+      <created>2015-12-16 11:52:36</created>
+      <starts>2015-12-16 11:52:36</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.8003</mapCoordinateX>
+        <mapCoordinateY>0.4500</mapCoordinateY>
+        <mapStoreId>MG21</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Artis Hairdressing</title>
+        <name>Artis Hairdressing</name>
+        <body>Trend setting and leaders in hair fashions.</body>
+        <address>Mezzanine MG21</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 1413</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="21" feedItemsId="3893561" feedIdentifier="pp-web-directory-health&amp;beauty" feedItemTypeIdentifier="building-directory">
+      <title>Amcal Pharmacy</title>
+      <created>2015-12-16 11:52:35</created>
+      <starts>2015-12-16 11:52:35</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3488</mapCoordinateX>
+        <mapCoordinateY>0.2066</mapCoordinateY>
+        <mapStoreId>G39</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Amcal Pharmacy</title>
+        <name>Amcal Pharmacy</name>
+        <body>Extensive range of skin care and cosmetics including Clinique, Revlon and L'Oreal. Large variety of hosiery and hair care products.</body>
+        <address>Ground Level G39</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 2045</phone>
+        <category>Health &amp; Beauty</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="22" feedItemsId="3893560" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>The Roast House</title>
+      <created>2015-12-16 11:51:22</created>
+      <starts>2015-12-16 11:51:22</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.8367</mapCoordinateX>
+        <mapCoordinateY>0.1776</mapCoordinateY>
+        <mapStoreId>MG12</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>The Roast House</title>
+        <name>The Roast House</name>
+        <body>Shnitzel, Spanish, Thai, lemon grilled and tandoori chicken. The lunch menu also offers gourmet salads, and roasted meals.</body>
+        <address>Mezzanine MG12</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>0408 217 751</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="23" feedItemsId="3893559" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Taste Baguette</title>
+      <created>2015-12-16 11:51:21</created>
+      <starts>2015-12-16 11:51:21</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.8778</mapCoordinateX>
+        <mapCoordinateY>0.1921</mapCoordinateY>
+        <mapStoreId>MG13</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Taste Baguette</title>
+        <name>Taste Baguette</name>
+        <body>Come in the see what all the fuss is about, experience out own signature coffee blend prepared by Baristas that have been trained to the highest standards.</body>
+        <address>Mezzanine MG13</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 8887</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="24" feedItemsId="3893558" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Sumo Salad</title>
+      <created>2015-12-16 11:51:20</created>
+      <starts>2015-12-16 11:51:20</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.9123</mapCoordinateX>
+        <mapCoordinateY>0.2171</mapCoordinateY>
+        <mapStoreId>MG14</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Sumo Salad</title>
+        <name>Sumo Salad</name>
+        <body>A huge range of gourmet salads, delicious wraps, rolls, toasties, pasta, soup, fruit salad and yoghurt, coffee and other tasty menu options to satisfy even the fussiest of eaters!</body>
+        <address>Mezzanine MG14</address>
+        <web>www.sumosalad.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9247 1007</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="25" feedItemsId="3893557" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Subway</title>
+      <created>2015-12-16 11:51:19</created>
+      <starts>2015-12-16 11:51:19</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.6783</mapCoordinateX>
+        <mapCoordinateY>0.0289</mapCoordinateY>
+        <mapStoreId>MG02</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Subway</title>
+        <name>Subway</name>
+        <body>A wide range of fresh sandwiches, salads and wraps made right before you.</body>
+        <address>Mezzanine MG02</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>8019 9390</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="26" feedItemsId="3893556" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Piato</title>
+      <created>2015-12-16 11:51:18</created>
+      <starts>2015-12-16 11:51:18</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7873</mapCoordinateX>
+        <mapCoordinateY>0.1257</mapCoordinateY>
+        <mapStoreId>MG06</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Piato</title>
+        <name>Piato</name>
+        <body>Freshly made take-home packs for dinner options.</body>
+        <address>Mezzanine MG06</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>408 217 751</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="27" feedItemsId="3893555" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Noodle Story</title>
+      <created>2015-12-16 11:51:17</created>
+      <starts>2015-12-16 11:51:17</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7612</mapCoordinateX>
+        <mapCoordinateY>0.0303</mapCoordinateY>
+        <mapStoreId>MG04</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Noodle Story</title>
+        <name>Noodle Story</name>
+        <body>Hokka Hokka offers modern Asian Cuisine, that is freshly made to order on the spot.</body>
+        <address>Mezzanine MG04</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>No number</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="28" feedItemsId="3893554" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Mad Mex</title>
+      <created>2015-12-16 11:51:16</created>
+      <starts>2015-12-16 11:51:16</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.8658</mapCoordinateX>
+        <mapCoordinateY>0.2809</mapCoordinateY>
+        <mapStoreId>MG16</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Mad Mex</title>
+        <name>Mad Mex</name>
+        <body>Mad Mex Fresh Mexican Grill offers gourmet made-to-order Mexican-inspired.</body>
+        <address>Mezzanine MG16</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9241 5287</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="29" feedItemsId="3893553" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Kukai Food</title>
+      <created>2015-12-16 11:51:15</created>
+      <starts>2015-12-16 11:51:15</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7157</mapCoordinateX>
+        <mapCoordinateY>0.0145</mapCoordinateY>
+        <mapStoreId>MG03</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Kukai Food</title>
+        <name>Kukai Food</name>
+        <body>Japanese restaurant</body>
+        <address>Mezzanine MG03</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>0430 198 375</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="30" feedItemsId="3893552" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Janus</title>
+      <created>2015-12-16 11:51:15</created>
+      <starts>2015-12-16 11:51:15</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.9183</mapCoordinateX>
+        <mapCoordinateY>0.3480</mapCoordinateY>
+        <mapStoreId>MG19</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Janus</title>
+        <name>Janus</name>
+        <body>Patrons can enjoy a wholehearted breakfast, lunch.</body>
+        <address>Mezzanine MG19</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 2614</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="31" feedItemsId="3893551" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Fruition</title>
+      <created>2015-12-16 11:51:14</created>
+      <starts>2015-12-16 11:51:14</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7993</mapCoordinateX>
+        <mapCoordinateY>0.2178</mapCoordinateY>
+        <mapStoreId>MG18</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Fruition</title>
+        <name>Fruition</name>
+        <body>Salad lovers can indulge their healthy desires at Fruition with a great selection of fabulous salads on the menu, including Mexican chicken with mango, chick pea, Greek and tuna salads.</body>
+        <address>Mezzanine MG18</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>418 408 340</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="32" feedItemsId="3893550" feedIdentifier="pp-web-directory-food(takeaway)" feedItemTypeIdentifier="building-directory">
+      <title>Blue Stone Deli</title>
+      <created>2015-12-16 11:51:12</created>
+      <starts>2015-12-16 11:51:12</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7883</mapCoordinateX>
+        <mapCoordinateY>0.0816</mapCoordinateY>
+        <mapStoreId>MG05</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Blue Stone Deli</title>
+        <name>Blue Stone Deli</name>
+        <body>Blue Stone Deli provides breakfast and lunch, specialising in gourmet sandwich fillings.</body>
+        <address>Mezzanine MG05</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9241 2577</phone>
+        <category>Food (Take Away)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="33" feedItemsId="3893549" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Woolworths</title>
+      <created>2015-12-16 11:46:35</created>
+      <starts>2015-12-16 11:46:35</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3202</mapCoordinateX>
+        <mapCoordinateY>0.1013</mapCoordinateY>
+        <mapStoreId>LG01</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Woolworths</title>
+        <name>Woolworths</name>
+        <body>The fresh food people</body>
+        <address>Lower Ground LG01</address>
+        <web>www.woolworths.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9251 9037</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="34" feedItemsId="3893548" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Sushi Junction</title>
+      <created>2015-12-16 11:46:34</created>
+      <starts>2015-12-16 11:46:34</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2072</mapCoordinateX>
+        <mapCoordinateY>0.1105</mapCoordinateY>
+        <mapStoreId>T20</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Sushi Junction</title>
+        <name>Sushi Junction</name>
+        <body>Over 25 flavours of sushi - Sushi Junction is a popular place to grab a quick meal.</body>
+        <address>Ground Level T20</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 2153</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="35" feedItemsId="3893547" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Old Oak Patisserie</title>
+      <created>2015-12-16 11:46:33</created>
+      <starts>2015-12-16 11:46:33</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2233</mapCoordinateX>
+        <mapCoordinateY>0.1125</mapCoordinateY>
+        <mapStoreId>T21</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Old Oak Patisserie</title>
+        <name>Old Oak Patisserie</name>
+        <body>The Old Oak Patisserie can help you cater for your various functions to suit all your needs and budgets.</body>
+        <address>Ground Level T21</address>
+        <web>www.oldoakpatisserie.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9241 2050</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="36" feedItemsId="3893546" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Malay Village</title>
+      <created>2015-12-16 11:46:32</created>
+      <starts>2015-12-16 11:46:32</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.1822</mapCoordinateX>
+        <mapCoordinateY>0.1118</mapCoordinateY>
+        <mapStoreId>T18</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Malay Village</title>
+        <name>Malay Village</name>
+        <body>Combining traditional dishes with innovative modern interpretations, our menu has been created specially to entice discerning Sydney-siders by drawing on extensive understanding of the cuisine and injecting first-hand experience.</body>
+        <address>Ground Level T18</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>402 365 367</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="37" feedItemsId="3893545" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>La Petite Espresso &amp; Slider Bar</title>
+      <created>2015-12-16 11:46:31</created>
+      <starts>2015-12-16 11:46:31</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.1517</mapCoordinateX>
+        <mapCoordinateY>0.1184</mapCoordinateY>
+        <mapStoreId>T17</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>La Petite Espresso &amp; Slider Bar</title>
+        <name>La Petite Espresso &amp; Slider Bar</name>
+        <body>Sandwiches and salads, plus mini burgers, coffee and macarons, in an easygoing counter-serve joint.</body>
+        <address>Ground Level T17</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 9991</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="38" feedItemsId="3893544" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Laugenring German Bakery</title>
+      <created>2015-12-16 11:46:30</created>
+      <starts>2015-12-16 11:46:30</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.0177</mapCoordinateX>
+        <mapCoordinateY>0.1145</mapCoordinateY>
+        <mapStoreId>T12</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Laugenring German Bakery</title>
+        <name>Laugenring German Bakery</name>
+        <body>Welcome to the real world of German Bakery!</body>
+        <address>Ground Level T12</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9252 7472</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="39" feedItemsId="3893543" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Krispy Roll</title>
+      <created>2015-12-16 11:46:29</created>
+      <starts>2015-12-16 11:46:29</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.4537</mapCoordinateX>
+        <mapCoordinateY>0.3112</mapCoordinateY>
+        <mapStoreId>G48</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Krispy Roll</title>
+        <name>Krispy Roll</name>
+        <body>Vietnamese Cuisine </body>
+        <address>Ground Level G48</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>No number</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="40" feedItemsId="3893542" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Iku Wholefoods</title>
+      <created>2015-12-16 11:46:28</created>
+      <starts>2015-12-16 11:46:28</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2407</mapCoordinateX>
+        <mapCoordinateY>0.1125</mapCoordinateY>
+        <mapStoreId>T22</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Iku Wholefoods</title>
+        <name>Iku Wholefoods</name>
+        <body>Iku Wholefood is a source of balance we all need in our lives. </body>
+        <address>Ground Level T22</address>
+        <web>www.ikuwholefood.com/</web>
+        <orderUrl></orderUrl>
+        <phone>9251 0111</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="41" feedItemsId="3893541" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Fruit Passion</title>
+      <created>2015-12-16 11:46:27</created>
+      <starts>2015-12-16 11:46:27</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.0432</mapCoordinateX>
+        <mapCoordinateY>0.1138</mapCoordinateY>
+        <mapStoreId>T13</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Fruit Passion</title>
+        <name>Fruit Passion</name>
+        <body>Fruit Passion is a well established fruit shop conveniently located next to Wynyard Station in the heart of the Central Business District (CBD)</body>
+        <address>Ground Level T13</address>
+        <web>www.fruitpassion.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9247 9192</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="42" feedItemsId="3893540" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Fresh &amp; Zesty</title>
+      <created>2015-12-16 11:46:26</created>
+      <starts>2015-12-16 11:46:26</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2707</mapCoordinateX>
+        <mapCoordinateY>0.0296</mapCoordinateY>
+        <mapStoreId>G14</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Fresh &amp; Zesty</title>
+        <name>Fresh &amp; Zesty</name>
+        <body>Fresh &amp; Zesty is your one stop shop for breakfast, lunch or a snack.</body>
+        <address>Ground Level G14</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9252 3708</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="43" feedItemsId="3893539" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Croutons</title>
+      <created>2015-12-16 11:46:25</created>
+      <starts>2015-12-16 11:46:25</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.4893</mapCoordinateX>
+        <mapCoordinateY>0.3849</mapCoordinateY>
+        <mapStoreId>G27</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Croutons</title>
+        <name>Croutons</name>
+        <body>Croutons is a specialty soup retailer serving yummy hot soup in a variety of styles and flavours.</body>
+        <address>Ground Level G27</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>No number</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="44" feedItemsId="3893538" feedIdentifier="pp-web-directory-food(freshfood&amp;takehome)" feedItemTypeIdentifier="building-directory">
+      <title>Chatime</title>
+      <created>2015-12-16 11:46:24</created>
+      <starts>2015-12-16 11:46:24</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2246</mapCoordinateX>
+        <mapCoordinateY>0.0283</mapCoordinateY>
+        <mapStoreId>T10</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Chatime</title>
+        <name>Chatime</name>
+        <body>We're committed to bringing our customers the freshest, tastiest bubble tea. And, with over 90 products in our range, youre sure to find something youll love at CHATIME.</body>
+        <address>Ground Level T10</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>8970 3063</phone>
+        <category>Food (Fresh Food &amp; Take Home)</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="46" feedItemsId="3893536" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Lovisa</title>
+      <created>2015-12-16 11:45:09</created>
+      <starts>2015-12-16 11:45:09</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3377</mapCoordinateX>
+        <mapCoordinateY>0.2737</mapCoordinateY>
+        <mapStoreId>G37</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Lovisa</title>
+        <name>Lovisa</name>
+        <body>More than just a range of accessories, Lovisa is a name synonymous with leading edge fashion, vitality and innovation.</body>
+        <address>Ground Level G37</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>0481 600 336</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="47" feedItemsId="3893535" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>La Moore Shoes</title>
+      <created>2015-12-16 11:45:08</created>
+      <starts>2015-12-16 11:45:08</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.4427</mapCoordinateX>
+        <mapCoordinateY>0.3967</mapCoordinateY>
+        <mapStoreId>G28</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>La Moore Shoes</title>
+        <name>La Moore Shoes</name>
+        <body>La Moore shoes sell quality imported shoes and accessories.</body>
+        <address>Ground Level G28</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9241 2130</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="48" feedItemsId="3893534" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>ISA Design</title>
+      <created>2015-12-16 11:45:07</created>
+      <starts>2015-12-16 11:45:07</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.4318</mapCoordinateX>
+        <mapCoordinateY>0.2428</mapCoordinateY>
+        <mapStoreId>G44</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>ISA Design</title>
+        <name>ISA Design</name>
+        <body>Featuring a range of crystal titanium earings, necklaces and braclets as well as fashionable scraves and bags I.S.A offers unique quality accessories for every occassion.</body>
+        <address>Ground Level G44</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>0413 541 938</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="49" feedItemsId="3893533" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Fuse Silver</title>
+      <created>2015-12-16 11:45:06</created>
+      <starts>2015-12-16 11:45:06</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.1353</mapCoordinateX>
+        <mapCoordinateY>0.0382</mapCoordinateY>
+        <mapStoreId>T06</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Fuse Silver</title>
+        <name>Fuse Silver</name>
+        <body>Classic sterling silver items to build a collection or one off design to make a statement.</body>
+        <address>Ground Level T06</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>0430 751 232</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="50" feedItemsId="3893532" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Florsheim Shoes</title>
+      <created>2015-12-16 11:45:05</created>
+      <starts>2015-12-16 11:45:05</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7778</mapCoordinateX>
+        <mapCoordinateY>0.5184</mapCoordinateY>
+        <mapStoreId>MG22</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Florsheim Shoes</title>
+        <name>Florsheim Shoes</name>
+        <body>Florsheim Australia is a quality footwear brand catering for both men and women who prefer quality and classic styling. </body>
+        <address>Mezzanine MG22</address>
+        <web>www.florsheim.com.au/</web>
+        <orderUrl></orderUrl>
+        <phone>9251 2987</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="51" feedItemsId="3893531" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Witchery</title>
+      <created>2015-12-16 11:45:04</created>
+      <starts>2015-12-16 11:45:04</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2747</mapCoordinateX>
+        <mapCoordinateY>0.4395</mapCoordinateY>
+        <mapStoreId>G03</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Witchery</title>
+        <name>Witchery</name>
+        <body>We are Witchery, the most inspiring among Australia's big fashion brands.</body>
+        <address>Ground Level G03</address>
+        <web>www.witchery.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9252 8450</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="52" feedItemsId="3893530" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Veronika Maine</title>
+      <created>2015-12-16 11:45:03</created>
+      <starts>2015-12-16 11:45:03</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3528</mapCoordinateX>
+        <mapCoordinateY>0.5000</mapCoordinateY>
+        <mapStoreId>G030</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Veronika Maine</title>
+        <name>Veronika Maine</name>
+        <body>Veronika Maine is unique. Renowned for technical innovation and high quality finishes, the Veronika Maine brand celebrates the art of fashion.</body>
+        <address>Ground Level G30</address>
+        <web>www.veronikamaine.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>8065 7571</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="53" feedItemsId="3893529" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Sportsgirl</title>
+      <created>2015-12-16 11:45:02</created>
+      <starts>2015-12-16 11:45:02</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3972</mapCoordinateX>
+        <mapCoordinateY>0.5007</mapCoordinateY>
+        <mapStoreId>G29</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Sportsgirl</title>
+        <name>Sportsgirl</name>
+        <body>Sportsgirl's buyers work with a team of designers and innovators to offer a fresh and funky range every month.</body>
+        <address>Ground Level G29</address>
+        <web>www.sportsgirl.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9247 1355</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="54" feedItemsId="3893528" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Sheike</title>
+      <created>2015-12-16 11:45:00</created>
+      <starts>2015-12-16 11:45:00</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3382</mapCoordinateX>
+        <mapCoordinateY>0.3750</mapCoordinateY>
+        <mapStoreId>G35</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Sheike</title>
+        <name>Sheike</name>
+        <body>Providing stylish fashion for the under 30's the name Sheike says it all.</body>
+        <address>Ground Level G35</address>
+        <web>www.sheike.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9336 2111</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="55" feedItemsId="3893527" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Robot Fashion</title>
+      <created>2015-12-16 11:44:59</created>
+      <starts>2015-12-16 11:44:59</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.8708</mapCoordinateX>
+        <mapCoordinateY>0.3868</mapCoordinateY>
+        <mapStoreId>MG20</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Robot Fashion</title>
+        <name>Robot Fashion</name>
+        <body>ROBOT fashion was established in 1986 by Dean and Andre who saw an opportunity to bring the fashion of Kings Road and Carnaby Streets in London to Australia.</body>
+        <address>Mezzanine MG20</address>
+        <web>www.robotmenswear.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9252 3339</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="0" feedItemsId="4001001" feedIdentifier="pp-web-directory-fashion" feedItemTypeIdentifier="building-directory">
+        <title>Paul Dane</title>
+        <created>2016-03-01 14:17:16</created>
+        <starts>2016-03-01 14:17:16</starts>
+        <expires/>
+        <data>
+            <logoImage/>
+            <backgroundImage/>
+            <imagePath/>
+            <title>Paul Dane</title>
+            <name>Paul Dane</name>
+            <body>
+            Paul Dane aims to consistently offer fashion at excellent value with stand out service.
+            </body>
+            <address/>
+            <web>http://www.pauldane.com.au</web>
+            <orderUrl/>
+            <phone/>
+            <category>Fashion</category>
+            <hero/>
+            <monday>1</monday>
+            <monOpen>09:00 am</monOpen>
+            <monClose>05:00 pm</monClose>
+            <tuesday>1</tuesday>
+            <tueOpen>09:00 am</tueOpen>
+            <tueClose>05:00 pm</tueClose>
+            <wednesday>1</wednesday>
+            <wedOpen>09:00 am</wedOpen>
+            <wedClose>05:00 pm</wedClose>
+            <thursday>1</thursday>
+            <thuOpen>09:00 am</thuOpen>
+            <thuClose>05:00 pm</thuClose>
+            <friday>1</friday>
+            <friOpen>09:00 am</friOpen>
+            <friClose>05:00 pm</friClose>
+            <saturday/>
+            <satOpen/>
+            <satClose/>
+            <sunday/>
+            <sunOpen/>
+            <sunClose/>
+            <daysOfWeek/>
+            <startTime/>
+            <endTime/>
+            <imageUrl>
+            https://assets.inlink.io/cms/directories/images/000/001/417/original/PAUL_DENE_10-1459294824.jpg
+            </imageUrl>
+            <mapCoordinateX>0.2747</mapCoordinateX>
+            <mapCoordinateY>0.2908</mapCoordinateY>
+            <mapStoreId>G06</mapStoreId>
+            <mapLevel>0</mapLevel>
+            <mapLevelName>Ground Level</mapLevelName>
+            <longformId>1417</longformId>
+            <hasLongform>1</hasLongform>
+        </data>
+    </feedItem>
+    <feedItem index="57" feedItemsId="3893525" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Rebecca Ruby</title>
+      <created>2015-12-16 11:44:57</created>
+      <starts>2015-12-16 11:44:57</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3307</mapCoordinateX>
+        <mapCoordinateY>0.2454</mapCoordinateY>
+        <mapStoreId>G38</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Rebecca Ruby</title>
+        <name>Rebecca Ruby</name>
+        <body>Contemporary womenswear in gorgeous prints and luxurious plain fabrics, made in Australia and without a huge price tag. </body>
+        <address>Ground Level G38</address>
+        <web>www.rebeccaruby.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>0405 370 003</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="58" feedItemsId="3893524" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Page One</title>
+      <created>2015-12-16 11:44:56</created>
+      <starts>2015-12-16 11:44:56</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.4537</mapCoordinateX>
+        <mapCoordinateY>0.2750</mapCoordinateY>
+        <mapStoreId>G45</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Page One</title>
+        <name>Page One</name>
+        <body>A "Pandora's Box" of fashion labels Page One buys the best of  designer seasonal ranges to bring you the ultimate in designer labels.</body>
+        <address>Ground Level G45</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9252 6895</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="59" feedItemsId="3893522" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Metallic Gifts Pop Up Store</title>
+      <created>2015-12-16 11:44:55</created>
+      <starts>2015-12-16 11:44:55</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.0217</mapCoordinateX>
+        <mapCoordinateY>0.0303</mapCoordinateY>
+        <mapStoreId>T01</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Metallic Gifts Pop Up Store</title>
+        <name>Metallic Gifts Pop Up Store</name>
+        <body>Fashion that does not cost the earth!</body>
+        <address>Ground Level T01</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>0425 284 888</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="60" feedItemsId="3893523" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Oxford</title>
+      <created>2015-12-16 11:44:55</created>
+      <starts>2015-12-16 11:44:55</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.6897</mapCoordinateX>
+        <mapCoordinateY>0.4730</mapCoordinateY>
+        <mapStoreId>MG23</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Oxford</title>
+        <name>Oxford</name>
+        <body>The Oxford brand has evolved over time into a modern, contemporary and stylish collection for both men, and more recently, women. </body>
+        <address>Mezzanine MG23</address>
+        <web>www.oxfordshop.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9251 8471</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="61" feedItemsId="3893521" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Mary Holland Lingerie</title>
+      <created>2015-12-16 11:44:54</created>
+      <starts>2015-12-16 11:44:54</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2732</mapCoordinateX>
+        <mapCoordinateY>0.2322</mapCoordinateY>
+        <mapStoreId>G09</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Mary Holland Lingerie</title>
+        <name>Mary Holland Lingerie</name>
+        <body>A premium quality lingerie, sleepwear and swimwear retailer.</body>
+        <address>Ground Level G09</address>
+        <web>www.maryholland.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9247 3494</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="62" feedItemsId="3893520" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Mariko Boutique</title>
+      <created>2015-12-16 11:44:53</created>
+      <starts>2015-12-16 11:44:53</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.4203</mapCoordinateX>
+        <mapCoordinateY>0.3375</mapCoordinateY>
+        <mapStoreId>G51</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Mariko Boutique</title>
+        <name>Mariko Boutique</name>
+        <body>A unique fashion boutique that sells Australian and overseas designer labels.</body>
+        <address>Ground Level G51</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9241 2402</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="63" feedItemsId="3893519" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Lorna Jane</title>
+      <created>2015-12-16 11:44:52</created>
+      <starts>2015-12-16 11:44:52</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2742</mapCoordinateX>
+        <mapCoordinateY>0.5000</mapCoordinateY>
+        <mapStoreId>G02</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Lorna Jane</title>
+        <name>Lorna Jane</name>
+        <body>Australia's award-winning activewear label for women.</body>
+        <address>Ground Level G02</address>
+        <web>www.lornajane.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9247 6177</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="64" feedItemsId="3893518" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>French Connection</title>
+      <created>2015-12-16 11:44:51</created>
+      <starts>2015-12-16 11:44:51</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.2737</mapCoordinateX>
+        <mapCoordinateY>0.3513</mapCoordinateY>
+        <mapStoreId>G05</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>French Connection</title>
+        <name>French Connection</name>
+        <body>Design-led products presented in a unique and innovative way.</body>
+        <address>Ground Level G05</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 3929</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="65" feedItemsId="3893517" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Attik</title>
+      <created>2015-12-16 11:44:50</created>
+      <starts>2015-12-16 11:44:50</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3887</mapCoordinateX>
+        <mapCoordinateY>0.3651</mapCoordinateY>
+        <mapStoreId>G52</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Attik</title>
+        <name>Attik</name>
+        <body>Attik stores burst with colour and movement, featuring distinctive fashion, art and music.</body>
+        <address>Ground Level G52</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 3627</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="66" feedItemsId="3893516" feedIdentifier="pp-web-directory-fashion&amp;fashionaccessories" feedItemTypeIdentifier="building-directory">
+      <title>Angel Maternity</title>
+      <created>2015-12-16 11:44:49</created>
+      <starts>2015-12-16 11:44:49</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7983</mapCoordinateX>
+        <mapCoordinateY>0.3618</mapCoordinateY>
+        <mapStoreId>MG25</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Angel Maternity</title>
+        <name>Angel Maternity</name>
+        <body>Here at Angel Maternity, we design and produce stylish and affordable maternity and breastfeeding clothing and accessories.</body>
+        <address>Mezzanine MG25 </address>
+        <web>www.angelmaternity.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9252 6886</phone>
+        <category>Fashion &amp; Fashion Accessories</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="67" feedItemsId="3893515" feedIdentifier="pp-web-directory-cafe&amp;restaurants" feedItemTypeIdentifier="building-directory">
+      <title>Three Beans Cafe</title>
+      <created>2015-12-16 11:42:20</created>
+      <starts>2015-12-16 11:42:20</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.3088</mapCoordinateX>
+        <mapCoordinateY>0.0237</mapCoordinateY>
+        <mapStoreId>G16b</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Three Beans Cafe</title>
+        <name>Three Beans Cafe</name>
+        <body>Three Beans is a concept based on fast, healthy produce served in an elegant and modern surrounding. </body>
+        <address>Ground Level G16b</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9241 1122</phone>
+        <category>Cafe &amp; Restaurants</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-2.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="68" feedItemsId="3893514" feedIdentifier="pp-web-directory-cafe&amp;restaurants" feedItemTypeIdentifier="building-directory">
+      <title>Rokujuni</title>
+      <created>2015-12-16 11:42:18</created>
+      <starts>2015-12-16 11:42:18</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7933</mapCoordinateX>
+        <mapCoordinateY>0.8980</mapCoordinateY>
+        <mapStoreId>P05</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Rokujuni</title>
+        <name>Rokujuni</name>
+        <body>Choose from a wide variety of sushi and sashimi options, catering is also available. </body>
+        <address>Plaza P05</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 9951</phone>
+        <category>Cafe &amp; Restaurants</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Plaza</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="69" feedItemsId="3893513" feedIdentifier="pp-web-directory-cafe&amp;restaurants" feedItemTypeIdentifier="building-directory">
+      <title>Primavera Espresso Bar</title>
+      <created>2015-12-16 11:42:17</created>
+      <starts>2015-12-16 11:42:17</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.6853</mapCoordinateX>
+        <mapCoordinateY>0.2059</mapCoordinateY>
+        <mapStoreId>MG01</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Primavera Espresso Bar</title>
+        <name>Primavera Espresso Bar</name>
+        <body>Primavera's goal is to provide warm and friendly service in conjunction with high quality coffee, cakes, breakfast and snacks.</body>
+        <address>Mezzanine MG01</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9251 7612</phone>
+        <category>Cafe &amp; Restaurants</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="70" feedItemsId="3893512" feedIdentifier="pp-web-directory-cafe&amp;restaurants" feedItemTypeIdentifier="building-directory">
+      <title>Panzerotti Bar &amp; Bistro</title>
+      <created>2015-12-16 11:42:16</created>
+      <starts>2015-12-16 11:42:16</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7903</mapCoordinateX>
+        <mapCoordinateY>0.6559</mapCoordinateY>
+        <mapStoreId>P01</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Panzerotti Bar &amp; Bistro</title>
+        <name>Panzerotti Bar &amp; Bistro</name>
+        <body>A laid-back Italian breakfast and lunch spot serving coffee, paninis, antipasti and classic pastas.</body>
+        <address>Plaza P01</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9290 1119</phone>
+        <category>Cafe &amp; Restaurants</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-1.jpg</directoryImage>
+        <mapLevelName>Plaza</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="71" feedItemsId="3893511" feedIdentifier="pp-web-directory-cafe&amp;restaurants" feedItemTypeIdentifier="building-directory">
+      <title>Max Brenner Chocolate Bar</title>
+      <created>2015-12-16 11:42:15</created>
+      <starts>2015-12-16 11:42:15</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.7103</mapCoordinateX>
+        <mapCoordinateY>0.3822</mapCoordinateY>
+        <mapStoreId>MG24</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Max Brenner Chocolate Bar</title>
+        <name>Max Brenner Chocolate Bar</name>
+        <body>Treat yourself or your family to the ultimate chocolate experience.</body>
+        <address>Mezzanine MG24</address>
+        <web>www.maxbrenner.com.au</web>
+        <orderUrl></orderUrl>
+        <phone>9251 7788</phone>
+        <category>Cafe &amp; Restaurants</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-4.jpg</directoryImage>
+        <mapLevelName>Mezzanine</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+    <feedItem index="72" feedItemsId="3893510" feedIdentifier="pp-web-directory-cafe&amp;restaurants" feedItemTypeIdentifier="building-directory">
+      <title>Chefs Gallery</title>
+      <created>2015-12-16 11:42:14</created>
+      <starts>2015-12-16 11:42:14</starts>
+      <expires></expires>
+      <data>
+        <mapCoordinateX>0.5308</mapCoordinateX>
+        <mapCoordinateY>0.2632</mapCoordinateY>
+        <mapStoreId>G24</mapStoreId>
+        <logoImage></logoImage>
+        <backgroundImage></backgroundImage>
+        <imagePath></imagePath>
+        <title>Chefs Gallery</title>
+        <name>Chefs Gallery</name>
+        <body>Experience a New Kaleidoscope of Taste.</body>
+        <address>Ground Level G24</address>
+        <web></web>
+        <orderUrl></orderUrl>
+        <phone>9247 8888</phone>
+        <category>Cafe &amp; Restaurants</category>
+        <hero></hero>
+        <monday>1</monday>
+        <monOpen>8:00 am</monOpen>
+        <monClose>6:00 pm</monClose>
+        <tuesday>1</tuesday>
+        <tueOpen>8:00 am</tueOpen>
+        <tueClose>6:00 pm</tueClose>
+        <wednesday>1</wednesday>
+        <wedOpen>8:00 am</wedOpen>
+        <wedClose>6:00 pm</wedClose>
+        <thursday>1</thursday>
+        <thuOpen>8:00 am</thuOpen>
+        <thuClose>8:00 pm</thuClose>
+        <friday>1</friday>
+        <friOpen>8:00 am</friOpen>
+        <friClose>6:00 pm</friClose>
+        <saturday></saturday>
+        <satOpen></satOpen>
+        <satClose></satClose>
+        <sunday></sunday>
+        <sunOpen></sunOpen>
+        <sunClose></sunClose>
+        <daysOfWeek></daysOfWeek>
+        <startTime></startTime>
+        <endTime></endTime>
+        <directoryImage>images/content/img-item-3.jpg</directoryImage>
+        <mapLevelName>Ground</mapLevelName>
+        <mapLevel>0</mapLevel>
+      </data>
+    </feedItem>
+  </subChannel>
+</channel>

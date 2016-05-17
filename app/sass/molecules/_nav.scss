@@ -1,0 +1,137 @@
+#nav {
+  display: none;
+  margin: 0 0 -11px;
+  overflow: hidden;
+  padding: 15px 10px 0;
+  position: relative;
+  .active & {display: block;}
+  @media only screen and (min-width: $lg-breakpoint) {
+    display: inline;
+    float: right;
+    margin-bottom: 0;
+    overflow: visible;
+    margin: 0 -8px 0 0;
+    padding: 6px 10px 0 0;
+    .main-page & {padding: 4px 0 23px;}
+  }
+  @media only screen and (min-width: $xl-breakpoint) {padding: 4px 0 0;}
+  ul {
+    margin-bottom: 0;
+    text-align: center;
+    overflow: visible;
+    @media only screen and (min-width: $lg-breakpoint) {
+      text-align: left;
+      font-size: 12px;
+    }
+    @media only screen and (min-width: $xl-breakpoint) {font-size: 13px;}
+    .main-page & {
+      @media only screen and (min-width: $lg-breakpoint) {font-size: 10px;}
+      @media only screen and (min-width: $lg-breakpoint + 60px) {font-size: 11px;}
+      @media only screen and (min-width: $xl-breakpoint + 30px) {font-size: 13px;}
+    }
+    a {
+      color: $white;
+      &:hover {color: $white;}
+      .is-desktop & {
+        &:hover {
+          text-decoration: none;
+          color: $white;
+          // @media only screen and (min-width: $xl-breakpoint) {color: #ab201b;}
+        }
+      }
+      .main-page & {
+        color: $orange;
+        @media only screen and (min-width: $lg-breakpoint) {color: $white;}
+        .is-desktop & {
+          &:hover {
+            // color: $orange;
+            @media only screen and (min-width: $xl-breakpoint) {color: #ab201b;}
+          }
+        }
+      }
+      @media only screen and (min-width: $lg-breakpoint) {color: $white;}
+    }
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 -4px 6px 0;
+      float: none;
+      @media only screen and (min-width: $lg-breakpoint) {
+        padding: 0 4px;
+        margin: 0;
+      }
+      &.active {
+        position: relative;
+        &:after {
+          background: #ab201b;
+          bottom: -1px;
+          content: '';
+          height: 2px;
+          left: 6px;
+          position: absolute;
+          right: 5px;
+          @media only screen and (min-width: $lg-breakpoint) {bottom: -8px;}
+        }
+        a {
+          color: #ab201b;
+          &:hover {
+            color: #ab201b;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .t-align-right {
+    max-width: 80%;
+    min-height: 43px;
+    width: 100%;
+    @media only screen and (min-width: $sm-breakpoint) {
+      min-width: 91px;
+      width: auto;
+    }
+    position: relative;
+  }
+  .search {
+    @include transition(width .2s linear);
+    background: $white;
+    border-color: $orange;
+    color: $orange;
+    margin: 4px 0;
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 100%;
+    @media only screen and (min-width: $sm-breakpoint + 7px) {
+      right: 10px;
+      width: 91px;
+      &:focus {width: 490px;}
+    }
+    @media only screen and (min-width: $lg-breakpoint) {
+      background: #f16045;
+      right: 4px;
+      &:focus {width: 375px;}
+    }
+    @media only screen and (min-width: $xl-breakpoint) {
+      right: 10px;
+      &:focus {width: 465px;}
+    }
+    &::-webkit-input-placeholder {
+      color: $orange;
+      text-align: center;
+    }
+    &::-moz-placeholder {color: $orange;}
+    &:-ms-input-placeholder {color: $orange;}
+    @media only screen and (min-width: $lg-breakpoint) {
+      border: 2px solid rgba(255,255,255,0.5);
+      color: $white;
+      &::-webkit-input-placeholder {
+        color: $white;
+        text-align: center;
+        opacity: 0.6;
+      }
+      &::-moz-placeholder {color: $white;}
+      &:-ms-input-placeholder {color: $white;}
+    }
+  }
+}

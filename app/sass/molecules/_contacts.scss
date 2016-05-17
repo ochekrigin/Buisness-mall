@@ -1,0 +1,26 @@
+.contacts {
+  padding: 0 7px;
+  @media only screen and (min-width: $lg-breakpoint) {
+    margin-bottom: -34px;
+    padding: 7px 0 0;
+  }
+  #map {
+    margin: 0 6px 15px;
+    width: auto;
+    @media only screen and (min-width: $lg-breakpoint) {margin: 0 -10px 0 0;}
+  }
+  .frame {padding: 1px 0 0 5px;}
+  .definition-list {
+    margin: 0 0 15px;
+    @media only screen and (min-width: $lg-breakpoint) {margin-bottom: 33px;}
+  }
+  .fixed-term-width {
+    dt {
+      float: none;
+      @media only screen and (min-width: $xl-breakpoint) {float: left;}
+    }
+  }
+  a {
+    &:hover {text-decoration: none;}
+  }
+}

@@ -1,0 +1,106 @@
+extends modules/layout
+block title
+  - title = "MetCentre - Centre Info";
+block body
+  - centreInfo = true;
+  //wrapper starts
+  #wrapper
+    //header starts
+    include modules/header
+    //header ends
+    //main starts
+    #main
+      section.content-section.white-scheme
+        .container
+          form.contacts-form(action="#" data-form-to-validate data-add-class-on-recieved-response data-request-url="https://xperior-services.herokuapp.com/www.metcentre.com.au/email")
+            fieldset
+              .grid-row
+                .grid-col-lg-7
+                  h2.biggest Contact Us
+                  .grid-row
+                    .grid-col-sm-3.grid-col-lg-3
+                      label(for="user-name").required.uppercase.inline your Name
+                    .grid-col-sm-9.grid-col-lg-9
+                      .input-holder
+                        input(type="text" id="user-name" name="name" data-type data-type-required).middle-size
+                  .grid-row
+                    .grid-col-sm-3.grid-col-lg-3
+                      label(for="email").required.uppercase.inline Email
+                    .grid-col-sm-9.grid-col-lg-9
+                      .input-holder
+                        input(type="email" id="email" name="email" data-type data-type-required).middle-size
+                  .grid-row
+                    .grid-col-sm-3.grid-col-lg-3
+                      label(for="enquiry").required.uppercase.inline enquiry
+                    .grid-col-sm-9.grid-col-lg-9
+                      .input-holder
+                        textarea(cols="30", rows="10" name="enquiry" id="enquiry" data-type data-type-required)
+                        .btn-holder
+                          button(type="submit").btn.dark-orange.large.small.full-width
+                            span Submit
+                        .message
+                          p Your contact request has been sent successfully
+                .grid-col-lg-5
+                  .frame
+                    h2.biggest Contact Details
+                    dl.definition-list.with-line-break.gray.large
+                      dt Centre Management Office
+                      dd
+                        address Level 6, 60 Margaret St, Sydney
+                      dt Phone
+                      dd
+                        a(href="tel:0292590900") 02 9259 0900
+                      dt Fax
+                      dd
+                        a(href="tel:0292210845") 02 9221 0845
+          h2.biggest.text-center#getting Getting Here
+          .map-box.bottom-direction
+            #map.map-holder.loading.white.top-indent(data-name="map" data-has-template)
+            .search-box
+              .grid-row
+                .grid-col-md-2
+                  button.btn.large.white.small(type="button").home-location.full-width Your Location
+                .grid-col-md-1.text-center
+                  span.or or
+                .grid-col-md-5
+                  input(type="text" placeholder="Enter your address" class="search-input")
+                .grid-col-md-2
+                  button.btn.large.white.small(type="button").search.full-width Search
+                .grid-col-md-2
+                  button.btn.large.white.small(type="button").clear.full-width Clear
+            span.message-box Sorry, you are too far away from the desired object or we can't build the route. Please try once again.
+            #direction-panel.direction-panel
+            h2.large.text-center Public Transport
+            .grid-row
+              .grid-col-lg-4
+                dl.definition-list.with-line-break.gray.large
+                  dt By Train
+                  dd Wynyard Station offers direct access to MetCentre via the ramp to ground level.
+              .grid-col-lg-4
+                dl.definition-list.with-line-break.gray.large
+                  dt By Bus
+                  dd Buses continually travel along George Street, alight at Wynyard Station. Other stops include Wynyard Park on York Street.
+              .grid-col-lg-4
+                dl.definition-list.with-line-break.gray.large
+                  dt By Taxi
+                  dd A taxi rank is located outside The Menzies Hotel on Carrington St, directly opposite the Margaret St entrance and on Jamison St.
+              .grid-col-lg-12
+                dl.definition-list.with-line-break.gray.large
+                  dt Notice
+                  dd Due to Lightrail works on George Street, access to MetCentre by Bus and Taxi may vary. Please refer to 
+                    a(href="//www.sydneylightrail.transport.nsw.gov.au", target="_blank") www.sydneylightrail.transport.nsw.gov.au 
+                    | OR 
+                    a(href="//www.cityofsydney.nsw.gov.au/development", target="_blank") www.cityofsydney.nsw.gov.au/development
+                    | for traffic and roadwork changes.              
+      section.data-section.content-section.white-scheme.hidden.lg-visible
+        .container
+          h2.biggest.text-center.b-indent
+            a(href="#") Store Finder
+          h3.accessibility Map information
+        .map.light
+          .mapplic#mapplic(data-name="mapplic", data-has-template)
+    //main ends
+  //wrapper ends
+  //footer starts
+  include modules/footer
+  //footer ends

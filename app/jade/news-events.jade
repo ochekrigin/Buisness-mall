@@ -1,0 +1,104 @@
+extends modules/layout
+block title
+  - title = "MetCentre - News and Events";
+block body
+  - newsEvents = true;
+  //wrapper starts
+  #wrapper
+    //header starts
+    include modules/header
+    //header ends
+    //main starts
+    #main
+      section.content-section.white-scheme.news#news.loading(data-name="news", data-has-template)
+        .container
+          h1 News and Events
+          .post.b-shadow.is-hidden(v-repeat="news.subChannel.feedItem").is-hidden-while-loading
+            .grid-row.has-if(v-if="data.hasLongform != 1")
+              .grid-col-lg-6
+                <div class="wistia_embed popover=true" data-image-id="{{data.videoUrl}}">&nbsp;</div>
+              .grid-col-lg-6
+                article.block.block--white.small-bottom-indent
+                  figure.media
+                    figcaption.caption
+                      h2.small.orange {{data.title}}
+                      p {{data.body}}
+            .grid-row(v-else)
+              .grid-col-lg-6
+                a(href="article-page.html?{{data.longformId}}")
+                  img(data-src="{{data.landscapeImageUrl}}" width="460" height="260" alt="{{data.title}}" src="#").responsive-img
+              .grid-col-lg-6
+                article.block.block--white.small-bottom-indent
+                  a(href="article-page.html?{{data.longformId}}")
+                    figure.media
+                      figcaption.caption
+                        h2.small.orange {{data.title}}
+                        p {{data.body}}
+                      .btn-holder
+                        span.btn.orange Read More
+      section.content-section.dark-scheme.top-indent
+        .container
+          h1.text-center.white
+            a(href="centre-info.html") About MetCentre
+          .contacts
+            .grid-row
+              .grid-col-lg-8
+                .map-box
+                  #map.map-holder(data-name="map" data-has-template)
+                  .search-box
+                    .grid-row
+                      .grid-col-md-3
+                        button.btn.large.white.small(type="button").home-location.full-width
+                          span Your Location
+                      .grid-col-md-1.text-center
+                        span.or or
+                      .grid-col-md-4
+                        input(type="text" placeholder="Enter your address" class="search-input")
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").search.full-width
+                          span Search
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").clear.full-width
+                          span Clear
+                  span.message-box Sorry, you are too far away from the desired object or we can't build the route. Please try once again.
+                  #direction-panel.direction-panel
+                    a.btn-close(href="#") Close
+              .grid-col-lg-4
+                .frame
+                  .grid-row
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="centre-info.html")
+                        h2.white.middle Trading Hours
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 8am-6pm
+                          dt Thursday
+                          dd 8am–8pm
+                        h2.white.middle Woolworths
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 6am–8pm
+                        h2.white.middle Max Brenner
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Thursday
+                          dd 7.30am–11pm
+                          dt Friday
+                          dd 7.30am–12am
+                          dt Saturday
+                          dd 9am–12am
+                          dt Sunday
+                          dd 9am–11pm
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="centre-info.html")
+                        h2.white.middle Contact Details
+                        dl.definition-list.with-line-break
+                          dt Address
+                          dd
+                            address Corner of George and Margaret Streets, Sydney.
+                          dt Phone
+                          dd 02 9259 0900
+    //main ends
+  //wrapper ends
+  //footer starts
+  include modules/footer
+  //footer ends

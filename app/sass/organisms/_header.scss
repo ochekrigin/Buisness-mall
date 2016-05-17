@@ -1,0 +1,69 @@
+#header {
+  background: $white;
+  overflow: hidden;
+  position: relative;
+  padding: 21px 0 0;
+  @media only screen and (min-width: $lg-breakpoint) {padding: 39px 0 14px;}
+  &:after {
+    background: $orange;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    width: 100%;
+    z-index: -1;
+    .main-page & {display: none;}
+    @media only screen and (min-width: $lg-breakpoint) {
+      .main-page & {
+        display: block;
+        width: 49.8%;
+      }
+    }
+  }
+  .logo {
+    margin: 0 0 0 15px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      margin: -6px 0 0;
+      .main-page & {margin: -7px 0 0;}
+    }
+  }
+  h1 {
+    &.big {
+      span {
+        color: $orange;
+        @media only screen and (min-width: $lg-breakpoint) {color: $white;}
+      }
+      .landing & {
+        margin: 0 0 15px;
+        @media only screen and (min-width: $lg-breakpoint) {margin-bottom: 65px;}
+      }
+    }
+  }
+  .main-page & {
+    overflow: visible;
+    padding: 22px 0 0;
+    @media only screen and (min-width: $lg-breakpoint) {padding: 39px 0 0;}
+  }
+  .nav-opener {
+    position: absolute;
+    top: 21px;
+    right: 15px;
+    .main-page & {top: 20px;}
+    @media only screen and (min-width: $lg-breakpoint) {display: none;}
+    .landing & {display: none !important;}
+  }
+  h2.big {
+    .landing & {
+      @media only screen and (min-width: $lg-breakpoint) {margin: 0 -5px 39px 14px;}
+      @media only screen and (min-width: $xl-breakpoint) {
+        margin: 0 -5px 39px 20px;
+      }
+      span.white {
+        color: $orange;
+        @media only screen and (min-width: $lg-breakpoint) {color: $white;}
+      }
+    }
+  }
+}

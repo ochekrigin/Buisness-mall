@@ -1,0 +1,18 @@
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+/* header styles start */
+#header {z-index: 10;}
+/* header styles end */
+/* main styles start */
+#main {
+  overflow: hidden;
+  padding: 0 0 240px;
+  position: relative;
+  z-index: 2;
+  @media only screen and (min-width: $lg-breakpoint) {padding: 0 0 297px;}
+  .landing & {padding: 0;}
+}
+/* main styles end */

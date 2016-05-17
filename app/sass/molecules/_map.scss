@@ -1,0 +1,366 @@
+.map-holder {
+  @include border-radius(6px);
+  @include box-sizing(border-box);
+  background: $white;
+  border: 5px solid #989a9d;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+  @media only screen and (min-width: $md-breakpoint) {height: 400px;}
+  &.white {
+    border: 3px solid #ebebeb;
+    height: 200px;
+    @media only screen and (min-width: $lg-breakpoint) {height: 350px;}
+  }
+  &.top-indent {
+    margin-top: 46px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      margin-right: -5px;
+      margin-bottom: 36px;
+      margin-left: 0;
+      width: auto;
+    }
+    @media only screen and (min-width: $xl-breakpoint) {margin-top: 61px;}
+  }
+}
+.map {
+  background: #e7e7e8;
+  margin: 0 auto 30px;
+  max-width: 1490px;
+  position: relative;
+  @media only screen and (min-width: $lg-breakpoint) {
+    margin: 0 auto 110px;
+    min-height: 480px;
+    padding: 30px;
+    &.no-indent {
+      min-height: 0;
+      padding: 0;
+    }
+  }
+  img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+.map-box {
+  padding: 0 0 30px;
+  position: relative;
+  .message-box {
+    display: none;
+    color: $orange-light;
+  }
+  &.error {
+    .message-box {display: block;}
+  }
+  &.bottom-direction {
+    padding-bottom: 3px;
+    h2 {
+      margin-bottom: 31px;
+      @media only screen and (min-width: $xl-breakpoint) {margin-bottom: 55px;}
+    }
+  }
+}
+.adp-details,
+.adp-legal {padding: 5px;}
+.direction-panel {
+  background: $white;
+  position: relative;
+  z-index: 2;
+  @media only screen and (min-width: $lg-breakpoint) {margin-right: -10px;}
+  @media only screen and (min-width: $xl-breakpoint) {
+    left: 103%;
+    min-width: 308px;
+    position: absolute;
+    top: 0;
+  }
+  .bottom-direction & {
+    margin-bottom: 30px;
+    @media only screen and (min-width: $xl-breakpoint) {
+      left: 0;
+      min-width: 0;
+      position: static;
+    }
+  }
+  .adp {
+    max-height: 459px;
+    overflow: auto;
+  }
+  .adp-placemark {
+    background: $white;
+    border: none;
+    color: #939598;
+    font: 18px/20px $gudea;
+    margin: 0;
+    padding: 5px 17px;
+  }
+  .adp-legal {display: none;}
+  .adp-summary {padding: 10px 15px 3px;}
+  .adp-substep {padding: 3px;}
+  .adp-directions {width: 100%;}
+  .btn-close {
+    display: none;
+    position: absolute;
+    right: -10px;
+    top: -12px;
+    z-index: 10;
+    @media only screen and (min-width: $xl-breakpoint) {right: 0;}
+    @media only screen and (min-width: 980px) {right: -10px;}
+    .directions & {display: block;}
+  }
+}
+.search-box {
+  padding: 15px 19px 0;
+  @media only screen and (min-width: $md-breakpoint) {
+    padding: 15px 8px 0;
+  }
+  @media only screen and (min-width: $lg-breakpoint) {
+    margin-right: -10px;
+    padding: 15px 0 0;
+  }
+  .bottom-direction & {
+    padding-bottom: 1px;
+    @media only screen and (min-width: $lg-breakpoint) {margin: 0;}
+    @media only screen and (min-width: $xl-breakpoint) {padding-bottom: 10px;}
+  }
+  .or {
+    display: inline-block;
+    padding: 0 0 9px;
+    vertical-align: top;
+    @media only screen and (min-width: $md-breakpoint) {padding: 13px 0 0;}
+  }
+}
+.mapplic-container {background: #e7e7e8;}
+.mapplic-tooltip {
+  &.mapplic-hovertip {
+    h4 {display: block;}
+    padding: 0 5px;
+    width: 150px;
+  }
+  @include border-radius(2px);
+  @include box-sizing(border-box);
+  padding: 0;
+  width: 254px;
+  h4{display: none;}
+  .mapplic-tooltip-close {
+    @include border-radius(50%);
+    background-image: none;
+    background: $white;
+    height: 24px;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    width: 24px;
+    &:after {
+      content: '';
+      background: $icons;
+      @include retina-sprite-background(cross, $retina);
+      @include sprite-dimensions($icons, cross);
+      background-position: sprite-position($icons, cross);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -4px 0 0 -4px;
+    }
+  }
+  .title {
+    color: $orange;
+    display: block;
+    font: #{$base-font-size + 4px}/#{$base-line-height} $gudea;
+    margin: 0 0 5px;
+    text-decoration: none;
+  }
+  .phone {
+    color: $gray;
+    display: inline-block;
+    font: #{$base-font-size}/#{$small-line-height - 2px} $gudea;
+    padding: 0 0 3px 15px;
+    position: relative;
+    vertical-align: top;
+    &:after {
+      content: '';
+      background: $icons;
+      @include retina-sprite-background(phone, $retina);
+      @include sprite-dimensions($icons, phone);
+      background-position: sprite-position($icons, phone);
+      position: absolute;
+      top: 4px;
+      left: 0;
+    }
+  }
+  .name {
+    display: block;
+    font: #{$base-font-size}/#{$small-line-height - 2px} $gudea;
+  }
+}
+.mapplic-tooltip-content {
+  min-height: 70px;
+  padding: 8px 5px 8px 15px;
+  .img-holder {
+    height: 60px;
+    left: 0;
+    margin: -30px 0 0;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+  }
+}
+.mapplic-pin {
+  &.circular {
+    @include border-radius(50%);
+    height: 18px;
+    margin-left: -9px;
+    margin-top: -9px;
+    opacity: 0;
+    width: 18px;
+  }
+}
+.mapplic-element {
+  @include box-sizing(border-box);
+  background: none;
+  height: auto !important;
+  min-height: 475px;
+  width: 100%;
+  @media only screen and (min-width: 767px) {padding-left: 365px;}
+  .light & {
+    background: #f8f8f8;
+    padding-top: 5px;
+    .mapplic-container {
+     @include box-sizing(border-box);
+     background: none;
+     min-height: 475px;
+     width: 100%;
+    }
+  }
+}
+.mapplic-map {
+  .mapplic-map-image {
+    height: auto;
+    width: 100%;
+  }
+}
+.mapplic-list-location {
+  margin: 0 0 -2px;
+  position: relative;
+  > a {
+    background: $white;
+    border: 2px solid #ebebeb;
+    color: $gray;
+    font-size: $base-font-size;
+    font-weight: 600;
+    height: 31px;
+    line-height: 32px;
+    min-height: 31px;
+    padding: 0 10px;
+    position: relative;
+    text-transform: none;
+    overflow: hidden;
+    &:hover {
+      background: $white;
+      border-color: $orange;
+      z-index: 1;
+    }
+    &.active {
+      background: $white;
+      border-color: $orange;
+      z-index: 1;
+    }
+    h4 {
+      color: $gray;
+      font-family: $gudea;
+      font-size: $base-font-size - 1px;
+      font-weight: 600;
+      line-height: 18px;
+      margin: 0 -5px 0 0;
+      position: relative;
+    }
+    @media only screen and (min-width: $md-breakpoint) {
+      height: 51px;
+      line-height: 50px;
+    }
+    span {
+      left: 4px;
+      position: absolute;
+      top: -1px;
+      width: 31px;
+    }
+  }
+}
+.mapplic-list-location h4 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mapplic-sidebar {
+  float: none;
+  margin: 0;
+  width: 100%;
+  @media only screen and (min-width: 767px) {
+    float: left;
+    margin: 0 0 0 -340px;
+    width: 286px;
+  }
+}
+.mapplic-levels {display: none;}
+.mapplic-search-form {
+  background: none;
+  padding: 18px 12px;
+  border: none;
+  @media only screen and (min-width: 667px) {padding: 14px 12px 14px 16px;}
+  .mapplic-search-input {
+    @include border-radius(2px);
+    background: $white image-url("mapplic/viewer.png") no-repeat 12px 50%;
+    border: 2px solid $gray-middle;
+    color: #aaa;
+    font-size: 17px;
+    height: 36px;
+    margin: 0;
+    padding: 11px 10px 8px 37px;
+    text-align: left;
+    @media only screen and (min-width: 667px) {
+      background: $white image-url("mapplic/viewer.png") no-repeat 11px 58%;
+      padding: 11px 10px 10px 37px;
+      height: 45px;
+    }
+    &::-webkit-input-placeholder {
+      color: #aaa;
+      text-align: left;
+    }
+    &::-moz-placeholder {
+      color: #aaa;
+      text-align: left;
+    }
+    &:-ms-input-placeholder {color: #aaa;}
+  }
+}
+.mapplic-list-container {
+  height: 315px;
+  padding-top: 76px;
+  @media only screen and (min-width: 667px) {height: 100%;}
+}
+.mapplic-fullscreen-button {
+  @media only screen and (min-width: 667px) {display: block;}
+}
+.mapplic-search-clear {height: 42px;}
+.mapplic-levels-select {cursor: pointer;}
+.mapplic-hovertip .mapplic-tooltip-title {line-height: 20px;}
+.mapplic-list-category {
+  > a {
+    font-size: $base-font-size - 1px;
+    font-weight: 600;
+    padding: 10px 32px 10px 12px;
+    .mapplic-list-count {
+      font-size: $base-font-size - 1px;
+      font-weight: 600;
+      line-height: 19px;
+      margin-right: -23px;
+    }
+  }
+  ol {display: none;}
+  &.mapplic-opened {
+    ol {display: block;}
+  }
+}

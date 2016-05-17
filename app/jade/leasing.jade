@@ -1,0 +1,153 @@
+extends modules/layout
+block title
+  - title = "MetCentre - Leasing";
+block body
+  - leasing = true;
+  //wrapper starts
+  #wrapper
+    //header starts
+    include modules/header
+    //header ends
+    //main starts
+    #main
+      section.content-section.white-scheme.with-indent.info
+        .container
+          .grid-row
+            .grid-col-lg-12
+              h1 Leasing
+              h2.large General Leasing
+          .grid-row
+            .grid-col-lg-6
+              .box
+                h3.small Cameron Wakeham
+                h3.small.light Senior Executive Manager Retail Leasing
+                address Colliers International, Sydney<br> Level 12, Grosvenor Place,<br> 225 George Street<br> Sydney, NSW 2000
+                dl.definition-list.gray.aligned
+                  dt.orange Tel:
+                  dd
+                    a(href="tel:+61292570222") +61 2 9257 0222
+                  dt.orange Direct:
+                  dd
+                    a(href="tel:+61292570228") +61 2 9257 0228
+                  dt.orange Mobile:
+                  dd
+                    a(href="tel:+61433464878") +61 433 464 878
+                  dt.orange Fax:
+                  dd
+                    a(href="tel:+61293470728") +61 2 9347 0728
+                a(href="mailto:cameron.wakeham@colliers.com").orange.email Cameron.Wakeham@colliers.com
+            .grid-col-lg-6
+              .box
+                h3.small Lan Leung
+                h3.small.light Centre Manager, MetCentre
+                address Colliers International, Sydney<br> Level 6, 60 Margaret Street<br> Sydney, NSW 2000 
+                dl.definition-list.gray.aligned
+                  dt.orange Tel:
+                  dd
+                    a(href="tel:+61292590900") +61 2 9259 0900
+                  dt.orange Direct:
+                  dd
+                    a(href="tel:+61292590909") +61 2 9259 0909
+                  dt.orange Mobile:
+                  dd
+                    a(href="tel:+61434565508") +61 434 565 508
+                  dt.orange Fax:
+                  dd
+                    a(href="tel:+61292210845") +61 2 9221 0845
+                a(href="mailto:lan.leung@colliers.com").orange.email Lan.Leung@colliers.com
+          .grid-row
+            .grid-col-lg-12
+              h2.large Casual Leasing
+          .grid-row
+            .grid-col-lg-6
+              h3.small Geraldine Dasey
+              h3.small.light Senior Property Manager
+              address Colliers International, Sydney<br> Level 6, 60 Margaret Street<br> Sydney, NSW 2000
+              dl.definition-list.gray.aligned
+                dt.orange Tel:
+                dd
+                  a(href="tel:+61292590900") +61 2 9259 0900
+                dt.orange Direct:
+                dd
+                  a(href="tel:+61292590909") +61 2 9259 0909
+                dt.orange Mobile:
+                dd
+                  a(href="tel:+61422544140") +61 422 544 140
+                dt.orange Fax:
+                dd
+                  a(href="tel:+61292210845") +61 2 9221 0845
+              a(href="mailto:geraldine.dasey@colliers.com").orange.email Geraldine.Dasey@colliers.com
+            .grid-col-lg-6
+              .btn-holder
+                a.btn-circle(href="source/leasing.pdf", target="_blank")
+                  span.item-table
+                    span.item-cell
+                      span.sub-text.uppercase View
+                      br
+                      span.sub-text.uppercase Retail leasing brochure
+      section.content-section.dark-scheme.top-indent
+        .container
+          h1.text-center.white
+            a(href="centre-info.html") About MetCentre
+          .contacts
+            .grid-row
+              .grid-col-lg-8
+                .map-box
+                  #map.map-holder(data-name="map" data-has-template)
+                  .search-box
+                    .grid-row
+                      .grid-col-md-3
+                        button.btn.large.white.small(type="button").home-location.full-width
+                          span Your Location
+                      .grid-col-md-1.text-center
+                        span.or or
+                      .grid-col-md-4
+                        input(type="text" placeholder="Enter your address" class="search-input")
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").search.full-width
+                          span Search
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").clear.full-width
+                          span Clear
+                  span.message-box Sorry, you are too far away from the desired object or we can't build the route. Please try once again.
+                  #direction-panel.direction-panel
+                    a.btn-close(href="#") Close
+              .grid-col-lg-4
+                .frame
+                  .grid-row
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="centre-info.html")
+                        h2.white.middle Trading Hours
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 8am-6pm
+                          dt Thursday
+                          dd 8am–8pm
+                        h2.white.middle Woolworths
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 6am–8pm
+                        h2.white.middle Max Brenner
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Thursday
+                          dd 7.30am–11pm
+                          dt Friday
+                          dd 7.30am–12am
+                          dt Saturday
+                          dd 9am–12am
+                          dt Sunday
+                          dd 9am–11pm
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="centre-info.html")
+                        h2.white.middle Contact Details
+                        dl.definition-list.with-line-break
+                          dt Address
+                          dd
+                            address Corner of George and Margaret Streets, Sydney.
+                          dt Phone
+                          dd 02 9259 0900
+    //main ends
+  //wrapper ends
+  //footer starts
+  include modules/footer
+  //footer ends

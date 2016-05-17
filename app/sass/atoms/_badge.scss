@@ -1,0 +1,22 @@
+/* badge atom styles start */
+.badge {
+  @include border-radius(17px);
+  color: $white;
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  height: 26px;
+  line-height: 26px;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 25px;
+}
+/* variations start */
+.badge-yellow {background: $yellow;}
+.badge-orange {background: adjust-color($dark-orange, $red: +5, $green: -15, $blue: -51);}
+.badge-red {background: adjust-color($red, $red: -15, $green: +19, $blue: -3);}
+.badge-purple {background: $purple;}
+/* variations end */
+/* badge atom styles end */

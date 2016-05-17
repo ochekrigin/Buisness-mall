@@ -1,0 +1,79 @@
+header#header(data-add-class-parent)
+  a.nav-opener(href="#" data-add-class) Opener
+  if mainPage
+    .container
+      .grid-row
+        .grid-col-lg-4
+          h1.logo Metcentre
+        .grid-col-lg-8
+          nav#nav
+            ul.list.bold.list--white
+              li
+                a(href="store-directory-list-view.html") Store Directory
+              li
+                a(href="news-events.html") News &amp; Events
+              li
+                a(href="centre-info.html") Centre Info
+              li
+                a(href="sign-up.html") Become a VIP
+              li
+                a(href="leasing.html") Leasing
+    section.visual(data-item-visual, v-class="promotion: visual.isPromotion")
+      .hidden(data-is-hidden-while-image-loads)
+        .container
+          .info-frame(v-if="visual.heading || visual.title")
+            .grid-row
+              .grid-col-lg-7.grid-prepend-lg-4.lg-align-right
+                h1.big.lg-text-right.white.without-indent.uppercase(v-if="visual.heading")
+                  {{visual.heading.text}} {{visual.heading.subtext}}
+              .grid-col-lg-5.text-left.lg-align-left
+                h2.title.orange {{visual.title.text}}
+        .img-holder.lg-visible.text-center(v-class="hidden: !visual.isPromotion")
+          img(data-src="{{visual.img.url}}" width="{{visual.img.width}}" height="{{visual.img.height}}" alt="{{visual.img.alt}}" src="#")
+        .btn-holder.text-center(v-if="visual.showSearchBar")
+          form(action="#" novalidate)
+            fieldset
+              input(type="text" placeholder="Search Store Directory" data-search-field data-note="No matching stores were found base on your query" data-url="https://assets.inlink.io/content/2016/channels/web-local-directory/web-local-directory-939.xml").small-width.search.white-scheme
+  else if landingPage
+    .container
+      .grid-row
+        .grid-col-lg-12
+          .logo-holder
+            h1.logo Metcentre
+      section.visual
+        h1.big.orange.text-center
+          | Your Centre for
+          span.white Everything
+        //- h2.big.orange.text-center
+        //-   span.row
+        //-     span.orange Is getting better
+        //-     span.white with a new website
+        //-   span.row
+        //-     span.orange Please call our customer
+        //-     span.white service line for assistance
+        //-   span.row
+        //-     span.orange 9259
+        //-     span.white 0900
+        .img-holder.text-center.hidden.lg-visible
+          img(src="images/content/img-visual-3.png" width="1400" height="482" alt="img-description")
+  else
+    .container
+      .grid-row
+        .grid-col-lg-4
+          h1.logo.white
+            a(href="index.html") Metcentre
+        .grid-col-lg-8
+          nav#nav
+            ul.list.bold.list--white
+              li
+                a(href="index.html") Home
+              li&attributes(storeDirectory ? {"class": "active"} : {})
+                a(href="store-directory-list-view.html") Store Directory
+              li&attributes(newsEvents ? {"class": "active"} : {})
+                a(href="news-events.html") News &amp; Events
+              li&attributes(centreInfo ? {"class": "active"} : {})
+                a(href="centre-info.html") Centre Info
+              li&attributes(signUp ? {"class": "active"} : {})
+                a(href="sign-up.html") Become a VIP
+              li&attributes(leasing ? {"class": "active"} : {})
+                a(href="leasing.html") Leasing

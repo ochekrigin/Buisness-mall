@@ -1,0 +1,233 @@
+.list {
+  @include resetList;
+  font: #{$base-font-size}/#{$small-line-height - 3px} $gudea;
+  margin: 0 0 15px -10px;
+  overflow: hidden;
+  position: relative;
+  &.bold {
+    font-family: $montserrat;
+    font-weight: 600;
+  }
+  &.list--white {
+    a {color: $white;}
+  }
+  &.list--vertical {
+    font-family: $montserrat;
+    font-size: 14px;
+    @media only screen and (min-width: $lg-breakpoint) {font-size: 16px;}
+    li {
+      float: none;
+      padding-bottom: 2px;
+    }
+  }
+  &.list--horizontal {
+    margin-left: -12px;
+    li {
+      display: inline-block;
+      margin: 0 0 5px;
+      padding: 0 10px 6px;
+      position: relative;
+      vertical-align: top;
+      @media only screen and (min-width: $lg-breakpoint) {
+        float: none;
+        margin: 0;
+        padding: 0 12px 8px;
+      }
+      &.active {
+        &:after {
+          background: $orange;
+          bottom: 0;
+          content: '';
+          height: 2px;
+          left: 7px;
+          position: absolute;
+          right: 7px;
+        }
+        a {
+          color: #f04e30;
+          &:hover {text-decoration: none;}
+        }
+      }
+    }
+  }
+  li {
+    padding: 0 10px 5px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      float: left;
+      padding: 0 10px;
+    }
+  }
+  a {color: $gray;}
+}
+.definition-list {
+  font: #{$base-font-size}/#{$small-line-height} $gudea;
+  margin: 0;
+  overflow: hidden;
+  .directions & {
+    @media only screen and (min-width: $xl-breakpoint) {opacity: 0;}
+  }
+  .bottom-direction & {
+    padding-left: 18px;
+    padding-right: 18px;
+    @media only screen and (min-width: $md-breakpoint) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    @media only screen and (min-width: $lg-breakpoint) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  &.gray {
+    dd,
+    a {color: $gray;}
+  }
+  &.aligned {
+    dt {
+      float: left;
+      min-width: 55px;
+    }
+  }
+  &.fixed-term-width {
+    dt {
+      @media only screen and (min-width: $lg-breakpoint) {width: 130px;}
+    }
+  }
+  &.fixed-term-width-small {
+    dt {
+      @media only screen and (min-width: $lg-breakpoint) {width: 92px;}
+    }
+  }
+  dt {
+    color: $orange-light;
+    margin: 0 5px 5px 0;
+    @media only screen and (min-width: $md-breakpoint) {margin: 0 5px 9px 0;}
+    @media only screen and (min-width: $lg-breakpoint) {float: left;}
+  }
+  dd {
+    margin: 0 0 5px;
+    overflow: hidden;
+    color: $white;
+    @media only screen and (min-width: $md-breakpoint) {margin: 0 0 9px;}
+    a {
+      color: $gray;
+      &:hover {
+        color: $gray;
+        .is-desktop & {
+          color: $orange;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &.with-line-break {
+    dt {float: none;}
+  }
+  &.large {
+    font: #{$big-font-size - 6px}/#{$base-line-height - 4px} $gudea;
+    dd {
+      color: $gray;
+      a {
+        color: $gray;
+        &:hover {
+          color: $gray;
+          .is-desktop & {
+            color: $orange;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+.checkbox-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {margin: 0 0 3px;}
+}
+.items-pager {
+  font: 400 #{$big-font-size - 2px}/#{$base-line-height} $gudea;
+  margin: 0;
+  overflow: hidden;
+  &.border {
+    border-top: 2px solid #ebebeb;
+    padding: 10px 10px 15px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      margin: -12px -10px 0;
+      padding: 26px 0 62px 26px;
+    }
+  }
+  dt {
+    margin: 0 0 10px 0;
+    @media only screen and (min-width: $lg-breakpoint) {
+      float: left;
+      margin: 0 17px 0 0;
+    }
+  }
+  dd {
+    margin: 0 0 0 -5px;
+    overflow: hidden;
+    position: relative;
+    @media only screen and (min-width: $lg-breakpoint) {margin: 0;}
+  }
+  ul {
+    font-family: $gudea;
+    font-size: $base-font-size;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-transform: uppercase;
+    li {
+      float: left;
+      padding: 0 10px 10px;
+      @media only screen and (min-width: $lg-breakpoint) {padding: 0 9px 0 8px;}
+    }
+  }
+  a {
+    color: $gray;
+    &:hover {text-decoration: none;}
+    &.active {color: $orange;}
+    &.disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+  }
+}
+.data-list {
+  @include resetList();
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+  @media only screen and (min-width: $xl-breakpoint + 240px) {font-size: 13px;}
+  li {
+    margin-bottom: 5px;
+    padding-left: 30px;
+  }
+  .badge {
+    margin-left: -30px;
+    position: relative;
+    vertical-align: middle;
+  }
+  .name {
+    @include box-sizing(border-box);
+    float: left;
+    padding-left: 2px;
+    padding-right: 5px;
+    width: 50%;
+  }
+  .phone {
+    @include box-sizing(border-box);
+    float: right;
+    font-weight: 400;
+    padding-left: 7px;
+    width: 50%;
+  }
+  .holder {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100%;
+  }
+}

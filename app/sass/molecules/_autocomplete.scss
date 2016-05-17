@@ -1,0 +1,52 @@
+.easy-autocomplete {
+  margin: 0 auto;
+  position: relative;
+  width: 200px !important;
+  @media only screen and (min-width: $md-breakpoint) {width: 294px !important;}
+  &:after {
+    content: '';
+    background: $icons;
+    @include retina-sprite-background(search-orange, $retina);
+    @include sprite-dimensions($icons, search-orange);
+    background-position: sprite-position($icons, search-orange);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: -8px 0 0;
+    right: 10px;
+    @media only screen and (min-width: $md-breakpoint) {right: 16px;}
+  }
+  input[type="text"] {
+    font-size: 14px;
+    margin: 0;
+    padding: 8px 24px 8px 11px;
+    @media only screen and (min-width: $md-breakpoint) {
+      font-size: 20px;
+      padding: 15px 36px;
+    }
+    @include box-shadow(none);
+  }
+  .easy-autocomplete-container {
+    border: none;
+    margin: -5px 0 0;
+    ul {
+      @include box-sizing(border-box);
+      @include border-radius(0 0 5px 5px);
+      border: 5px solid rgba(240, 78, 48, 0.35);
+      border-top: none;
+      max-height: 250px;
+      overflow: auto;
+      li {border: none;}
+      span {display: block;}
+    }
+  }
+  .eac-category {
+    border: none !important;
+    color: $orange;
+  }
+  a {
+    text-decoration: none;
+    color: $gray;
+    span {color: $orange;}
+  }
+}

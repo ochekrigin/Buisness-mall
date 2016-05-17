@@ -1,0 +1,90 @@
+.gallery {
+  margin: 0 auto 15px;
+  position: relative;
+  width: 280px;
+  @media only screen and (min-width: $sm-breakpoint) {width: 300px;}
+  @media only screen and (min-width: $lg-breakpoint) {width: 460px;}
+  @media only screen and (min-width: $xl-breakpoint) {
+    min-height: 450px;
+    width: 100%;
+  }
+  .holder {
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 23px;
+    @media only screen and (min-width: $xl-breakpoint) {margin: 0 -10px 24px;}
+  }
+  a {
+    color: $gray;
+    &:hover {
+      text-decoration: none;
+      .btn {
+        background: $orange;
+        border-color: #fcdfda;
+        color: $white;
+      }
+    }
+  }
+  .media .caption {
+    min-height: 0;
+    @media only screen and (min-width: $xl-breakpoint) {min-height: 138px;}
+  }
+  .slider {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 99999px;
+    overflow: hidden;
+    > li {
+      float: left;
+      width: 280px;
+      @media only screen and (min-width: $sm-breakpoint) {width: 300px;}
+      @media only screen and (min-width: $lg-breakpoint) {width: 460px;}
+      @media only screen and (min-width: $xl-breakpoint) {
+        margin: 0 10px;
+        width: 300px;
+      }
+    }
+    article {
+      // min-height: 385px;
+      // @media only screen and (min-width: $sm-breakpoint) {min-height: 412px;}
+      // @media only screen and (min-width: $lg-breakpoint) {min-height: 532px;}
+      @media only screen and (min-width: $xl-breakpoint) {min-height: 415px;}
+    }
+    article + a {display: none;}
+  }
+}
+.pagination {
+  text-align: center;
+  display: none;
+  @media only screen and (min-width: $lg-breakpoint) {display: block;}
+  ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+  }
+  li {
+    float: left;
+    padding: 0 9px;
+    @media only screen and (min-width: $lg-breakpoint) {padding: 0 7px;}
+    &:only-of-type {display: none;}
+    &.active {
+      a {background: $orange;}
+    }
+  }
+  a {
+    @include border-radius(50%);
+    background: #e6e6e6;
+    display: block;
+    height: 10px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 10px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      height: 13px;
+      width: 13px;
+    }
+  }
+}

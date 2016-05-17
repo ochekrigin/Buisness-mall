@@ -1,0 +1,368 @@
+/* visual styles start */
+.visual {
+  min-height: 250px;
+  padding: 1px 0 0;
+  position: relative;
+  .landing & {min-height: 80px;}
+  @media only screen and (min-width: $lg-breakpoint) {
+    margin: 0;
+    min-height: 250px;
+    padding: 1px 0 0 0;
+  }
+  h1 {
+    @media only screen and (min-width: $lg-breakpoint) {padding-right: 54px;}
+  }
+  .img-holder {
+    margin: -1px 0 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    img {
+      display: inline-block;
+      height: auto;
+      margin: 0 -126px;
+      max-width: 100%;
+      min-width: 571px;
+      vertical-align: top;
+      @media only screen and (min-width: $lg-breakpoint) {
+        display: block;
+        margin: 0 auto;
+        min-width: 0;
+        width: auto;
+      }
+    }
+  }
+  .btn-holder {
+    bottom: 22px;
+    left: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    @media only screen and (min-width: $lg-breakpoint) {bottom: 25px;}
+    @media only screen and (min-width: $xl-breakpoint) {
+      bottom: 93px;
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
+  .info-frame {
+    overflow: hidden;
+    padding: 0 14px 67px;
+    position: relative;
+    z-index: 1;
+    @media only screen and (min-width: $lg-breakpoint) {
+      margin: 0 0 -226px;
+      padding: 0;
+    }
+    @media only screen and (min-width: $xl-breakpoint + 70px) {
+      margin: 0 0 -351px;
+      padding: 95px 0 0;
+    }
+    .title {
+      font-size: 18px;
+      line-height: 25px;
+      @media only screen and (min-width: $lg-breakpoint) {
+        font-family: $museo;
+        font-size: 27px;
+        line-height: 33px;
+        padding-right: 67px;
+        padding-top: 4px;
+      }
+    }
+    .big {
+      color: $orange;
+      font-size: 23px;
+      line-height: 29px;
+      text-align: center;
+      @media only screen and (min-width: $lg-breakpoint) {
+        color: $white;
+        font-size: 44px;
+        line-height: 60px;
+        margin-left: -85px;
+        text-align: right;
+      }
+      @media only screen and (min-width: $xl-breakpoint) {margin-left: -37px;}
+    }
+  }
+  &.promotion {
+    min-height: 0;
+    .img-holder {
+      -webkit-overflow-scrolling: touch;
+      overflow-x: visible;
+      img {
+        height: auto;
+        margin: 0;
+        min-width: 640px;
+        width: 100%;
+      }
+    }
+  }
+}
+/* visual styles end */
+/* content section styles start */
+.content-section {
+  padding: 14px 0 6px;
+  position: relative;
+  @media only screen and (min-width: $xl-breakpoint) {padding: 32px 0 6px;}
+  &.article {
+    @media only screen and (min-width: $lg-breakpoint) {font-size: 19px;}
+  }
+  &.top-indent {
+    @media only screen and (min-width: $lg-breakpoint) {
+      padding-top: 47px;
+      .landing & {
+        overflow: hidden;
+        padding-top: 31px;
+      }
+    }
+  }
+  &.with-indent {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  &.large-b-indent {
+    padding-bottom: 30px;
+    padding-top: 3px;
+    @media only screen and (min-width: $md-breakpoint) {padding-top: 14px;}
+    @media only screen and (min-width: $lg-breakpoint) {padding-top: 32px;}
+    @media only screen and (min-width: $xl-breakpoint) {padding-bottom: 175px;}
+  }
+  &.middle-b-indent {
+    padding-bottom: 30px;
+    padding-top: 16px;
+    @media only screen and (min-width: $xl-breakpoint) {
+      padding-bottom: 113px;
+      padding-top: 31px;
+    }
+  }
+  .gallery {
+    padding: 2px 0 0;
+    @media only screen and (min-width: $lg-breakpoint) {padding-top: 32px;}
+  }
+  .list--with-hover {
+    font-size: $base-font-size - 1px;
+    padding: 26px 0 5px;
+  }
+  &.news {
+    padding-top: 18px;
+    @media only screen and (min-width: $xl-breakpoint) {padding: 32px 0 50px;}
+    h1 {
+      margin-bottom: 35px;
+      @media only screen and (min-width: $xl-breakpoint) {margin: 0 0 52px;}
+    }
+    .media {
+      .caption {padding: 0;}
+    }
+    .has-if + .grid-row {display: none;}
+    .has-if a {
+      display: block;
+      overflow: hidden;
+    }
+  }
+  &.item-news {
+    font-family: $gudea;
+    padding: 9px 15px 30px;
+    @media only screen and (min-width: $lg-breakpoint) {padding: 35px 0 50px;}
+    h1 {
+      margin-left: -9px;
+      @media only screen and (min-width: $lg-breakpoint) {margin: 0 0 31px;}
+    }
+    p {
+      margin: 0 0 10px;
+      @media only screen and (min-width: $lg-breakpoint) {margin: 0;}
+    }
+    .definition-list {
+      margin: 0 0 10px;
+      @media only screen and (min-width: $lg-breakpoint) {
+        margin-bottom: 13px;
+        margin-right: -10px;
+      }
+      dt {
+        float: none;
+        @media only screen and (min-width: $xl-breakpoint) {float: left;}
+      }
+      &.with-line-break {
+        dt {float: none;}
+      }
+    }
+  }
+  &.article {
+    font-size: $small-font-size + 4px;
+    h1 {
+      margin-left: 0;
+      @media only screen and (min-width: $lg-breakpoint) {margin: 0 0 31px;}
+    }
+  }
+  &.filter-section {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 17px;
+    @media only screen and (min-width: $xl-breakpoint) {padding-top: 29px;}
+    .buttons {
+      padding-left: 12px;
+      padding-right: 12px;
+      position: relative;
+      @media only screen and (min-width: $lg-breakpoint) {
+        margin: 0 -17px;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+      }
+      .btn-holder {
+        @media only screen and (min-width: $lg-breakpoint) {
+          @include box-sizing(border-box);
+          display: inline-block;
+          margin: 0 -2px;
+          max-width: 33.3%;
+          padding: 0 10px;
+          position: relative;
+          vertical-align: top;
+          width: 100%;
+        }
+      }
+    }
+  }
+  &.info {
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 17px;
+    @media only screen and (min-width: $lg-breakpoint + 2px) {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+    @media only screen and (min-width: $xl-breakpoint) {padding-top: 28px;}
+    h1 {
+      margin: 0 0 37px;
+      @media only screen and (min-width: $xl-breakpoint) {margin: 4px 0 54px;}
+    }
+    h2 {
+      &.large {
+        margin: 0;
+        @media only screen and (min-width: $xl-breakpoint) {margin: 0 0 15px;}
+      }
+      &.small-b-indent {
+        margin-bottom: 30px;
+        @media only screen and (min-width: $md-breakpoint) {margin-bottom: 55px;}
+      }
+    }
+    h3 {
+      &.small {
+        font-family: $gudea;
+        font-size: 16px;
+        font-weight: 700;
+        &.light {font-weight: 400;}
+      }
+    }
+    .container {
+      @media only screen and (min-width: $lg-breakpoint) {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+    .box {
+      margin-bottom: 13px;
+      @media only screen and (min-width: $xl-breakpoint) {margin-bottom: 30px;}
+    }
+    address {
+      margin: 0 0 12px;
+      min-height: 76px;
+      padding: 10px 0 0;
+    }
+    .definition-list {
+      margin: 0 0 10px;
+      dt,
+      dd {
+        margin-bottom: 6px;
+        @media only screen and (min-width: $lg-breakpoint) {margin-bottom: 0;}
+      }
+    }
+    .email {
+      display: inline-block;
+      margin-bottom: 15px;
+      vertical-align: top;
+      @media only screen and (min-width: $lg-breakpoint) {margin: 0;}
+    }
+    .btn-holder {
+      padding-top: 10px;
+      @media only screen and (min-width: $lg-breakpoint) {
+        margin-left: -10px;
+        margin-top: -10px;
+        padding-top: 0;
+        position: relative;
+      }
+    }
+  }
+  &.map-section {
+    h1 {
+      @media only screen and (min-width: $lg-breakpoint) {margin-bottom: 0;}
+    }
+    .heading.no-indent {
+      padding-bottom: 16px;
+      padding-top: 0;
+      @media only screen and (min-width: $xl-breakpoint) {padding-bottom: 32px;}
+    }
+  }
+  &.store-section {
+    h1 {margin-bottom: 22px;}
+  }
+  &.data-section {
+    padding-top: 23px;
+    @media only screen and (min-width: $xl-breakpoint) {padding-top: 32px;}
+    h2 {
+      margin-bottom: 39px;
+      @media only screen and (min-width: $md-breakpoint) {margin-bottom: 37px;}
+      @media only screen and (min-width: $xl-breakpoint) {margin-bottom: 51px;}
+    }
+  }
+  &.description-info {
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+    padding: 15px 0 22px;
+    @media only screen and (min-width: $lg-breakpoint) {
+      font-size: 18px;
+      line-height: 24px;
+      padding: 28px 0 10px;
+    }
+    @media only screen and (min-width: $xl-breakpoint) {
+      font-size: 23px;
+      line-height: 28px;
+      padding: 20px 0 6px;
+    }
+    a {color: #666;}
+    p {
+      line-height: 25px;
+      margin: 0 0 15px;
+      @media only screen and (min-width: $lg-breakpoint) {
+        line-height: 16px;
+        margin: 0 0 30px;
+      }
+      @media only screen and (min-width: $xl-breakpoint) {margin: 0 0 50px;}
+    }
+    h1 {
+      margin: 0 0 15px;
+      @media only screen and (min-width: $lg-breakpoint) {margin: 0 0 20px;}
+      @media only screen and (min-width: $xl-breakpoint) {margin: 0 0 27px;}
+    }
+  }
+}
+/* content section styles end */
+/* stores section styles start */
+.stores-section {
+  color: $black;
+  padding: 14px 16px;
+  .block {
+    margin: 0 -5px 11px;
+    padding: 6px 7px;
+    position: relative;
+  }
+  h3 {
+    font-family: $montserrat;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+}
+/* stores section styles end */

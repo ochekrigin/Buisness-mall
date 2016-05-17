@@ -1,0 +1,111 @@
+extends modules/layout
+block title
+  - title = "MetCentre - Store";
+block body
+  //wrapper starts
+  #wrapper(data-optional-load data-schedule data-request-url="https://cms.inlink.com.au/directories/").loading
+    //header starts
+    include modules/header
+    //header ends
+    //main starts
+    #main
+      section.content-section.white-scheme.item-news(data-loaded-block)
+        .container.is-hidden-while-loading
+          h1.title(data-title)
+          .grid-row
+            .grid-col-lg-9
+              img(data-src="{{data.imageUrl}}" width="715" height="256" alt="img-description" src="#").responsive-img.visual-item
+              div#schedule(data-description data-name="schedule" data-has-template)
+            .grid-col-lg-3
+              .grid-row
+                .grid-col-xs-6.grid-col-sm-6.grid-col-lg-12
+                  h2.gray.middle Trading Hours
+                  dl.definition-list.gray.fixed-term-width-small
+                    dt(v-if="data.monOpen") Monday
+                    dd(v-if="data.monOpen") {{data.monOpen}} - {{data.monClose}}
+                    dt(v-if="data.tueOpen") Thursday
+                    dd(v-if="data.tueOpen") {{data.tueOpen}} - {{data.tueClose}}
+                    dt(v-if="data.wedOpen") Wednesday
+                    dd(v-if="data.wedOpen") {{data.wedOpen}} - {{data.wedClose}}
+                    dt(v-if="data.thuOpen") Thursday
+                    dd(v-if="data.thuOpen") {{data.thuOpen}} - {{data.thuClose}}
+                    dt(v-if="data.friOpen") Friday
+                    dd(v-if="data.friOpen") {{data.friOpen}} - {{data.friClose}}
+                    dt(v-if="data.satOpen") Saturday
+                    dd(v-if="data.satOpen") {{data.friOpen}} - {{data.satClose}}
+                    dt(v-if="data.sunOpen") Sunday
+                    dd(v-if="data.sunOpen") {{data.sunOpen}} - {{data.sunClose}}
+                .grid-col-xs-6.grid-col-sm-6.grid-col-lg-12
+                  h2.gray.middle Contact
+                  dl.definition-list.with-line-break.gray
+                    dt(v-if="data.phone") Phone
+                    dd(v-if="data.phone")
+                      a(href="tel:{{data.phone}}") {{data.phone}}
+                    dt(v-if="data.address") Store Number
+                    dd(v-if="data.address") {{data.address}}
+      section.content-section.dark-scheme.top-indent
+        .container
+          h1.text-center.white
+            a(href="#") About MetCentre
+          .contacts
+            .grid-row
+              .grid-col-lg-8
+                .map-box
+                  #map.map-holder(data-name="map" data-has-template)
+                  .search-box
+                    .grid-row
+                      .grid-col-md-3
+                        button.btn.large.white.small(type="button").home-location.full-width
+                          span Your Location
+                      .grid-col-md-1.text-center
+                        span.or or
+                      .grid-col-md-4
+                        input(type="text" placeholder="Enter your address" class="search-input")
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").search.full-width
+                          span Search
+                      .grid-col-md-2
+                        button.btn.large.white.small(type="button").clear.full-width
+                          span Clear
+                  span.message-box Sorry, you are too far away from the desired object or we can't build the route. Please try once again.
+                  #direction-panel.direction-panel
+                    a.btn-close(href="#") Close
+              .grid-col-lg-4
+                .frame
+                  .grid-row
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="#")
+                        h2.white.middle Trading Hours
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 8am-6pm
+                          dt Thursday
+                          dd 8am–8pm
+                        h2.white.middle Woolworths
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Friday
+                          dd 6am–8pm
+                        h2.white.middle Max Brenner
+                        dl.definition-list.fixed-term-width
+                          dt Monday–Thursday
+                          dd 7.30am–11pm
+                          dt Friday
+                          dd 7.30am–12am
+                          dt Saturday
+                          dd 9am–12am
+                          dt Sunday
+                          dd 9am–11pm
+                    .grid-col-xs-12.grid-col-sm-6.grid-col-lg-12
+                      a(href="#")
+                        h2.white.middle Contact Details
+                        dl.definition-list.with-line-break
+                          dt Address
+                          dd
+                            address Corner of George and Margaret Streets, Sydney.
+                          dt Phone
+                          dd 02 9259 0900
+    //main ends
+  //wrapper ends
+  //footer starts
+  include modules/footer
+  //footer ends

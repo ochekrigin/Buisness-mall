@@ -1,0 +1,56 @@
+.block {
+  @include border-radius(2px);
+  margin: 0 0 20px;
+  overflow: hidden;
+  padding: 20px 10px;
+  position: relative;
+  @media only screen and (min-width: $md-breakpoint) {
+    padding: 20px;
+    &.small-bottom-indent {padding-bottom: 16px;}
+  }
+  @media only screen and (min-width: $lg-breakpoint) {margin: 0;}
+  &.block--white {background: $white;}
+  &.fashion {
+    .badge {background: $yellow;}
+  }
+  &.fashion,
+  &.fashionaccessories {
+    .badge {background: $yellow;}
+  }
+  &.services {
+    .badge {background: $purple;}
+  }
+  &.gifts-miscellaneous,
+  &.health-beauty {
+    .badge {background: adjust-color($dark-orange, $red: +5, $green: -15, $blue: -51);}
+  }
+  &.cafe-restaurants,
+  &.foodcourt,
+  &.foodfoodtakeaway {
+    .badge {background: adjust-color($red, $red: -15, $green: +19, $blue: -3);}
+  }
+}
+.store-holder {
+  padding: 0 34px 0 34px;
+  @media only screen and (min-width: $lg-breakpoint) {padding: 0 0 0 27px;}
+  @media only screen and (min-width: $xl-breakpoint) {padding: 0 0 0 90px;}
+  .link {margin: 1px 0 -1px;}
+  h3 {margin: 0;}
+  [class^="grid-col-"] {
+    margin: 0 0 15px;
+    @media only screen and (min-width: 640px) {
+      display: inline-block;
+      float: none;
+      margin: 0 -4px 7px 0;
+      vertical-align: middle;
+    }
+  }
+  .grid-row {
+    &:hover {
+      .is-desktop & {
+        a {color: $orange;}
+        .btn {border-color: $orange;}
+      }
+    }
+  }
+}

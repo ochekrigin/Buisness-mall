@@ -1,0 +1,57 @@
+/* logo atom styles start */
+.logo {
+  background: $icons;
+  @include retina-sprite-background(logo-small, $retina);
+  @include sprite-dimensions($icons, logo-small);
+  background-position: sprite-position($icons, logo-small);
+  display: block;
+  margin: 0 0 15px;
+  text-align: left;
+  text-indent: -9999px;
+  @media only screen and (min-width: $lg-breakpoint) {
+    @include retina-sprite-background(logo, $retina);
+    @include sprite-dimensions($icons, logo);
+    background-position: sprite-position($icons, logo);
+    .landing & {
+      @include retina-sprite-background(logo-orange-white, $retina);
+      @include sprite-dimensions($icons, logo-orange-white);
+      background-position: sprite-position($icons, logo-orange-white);
+    }
+  }
+  &.gray {
+    background: $icons;
+    @include retina-sprite-background(logo-gray, $retina);
+    @include sprite-dimensions($icons, logo-gray);
+    background-position: sprite-position($icons, logo-gray);
+  }
+  &.white {
+    background: $icons;
+    @include retina-sprite-background(logo-white-small, $retina);
+    @include sprite-dimensions($icons, logo-white-small);
+    background-position: sprite-position($icons, logo-white-small);
+    @media only screen and (min-width: $lg-breakpoint) {
+      @include retina-sprite-background(logo-white, $retina);
+      @include sprite-dimensions($icons, logo-white);
+      background-position: sprite-position($icons, logo-white);
+    }
+  }
+  &.logo-largest {
+    @media only screen and (min-width: $xl-breakpoint) {
+      @include retina-sprite-background(logo-orange-white-large, $retina);
+      @include sprite-dimensions($icons, logo-orange-white-large);
+      background-position: sprite-position($icons, logo-orange-white-large);
+    }
+  }
+  .main-page.landing #header & {margin: 0 auto;}
+  a {
+    display: block;
+    height: 100%;
+  }
+}
+.logo-holder {
+  @media only screen and (min-width: $lg-breakpoint) {
+    margin: -7px 0 5px;
+    padding: 0 0 0 63px;
+  }
+}
+/* logo atom styles end */
